@@ -54,8 +54,8 @@ Pre-Course에서 다룬 내용을 복습하는 강의들이 제공되었다.
 
   * Ground Rule 발표 준비
   * 다음 Peer session 준비
-    * AI Math 5강까지 듣고 오기
-    * AI Math 5강까지 퀴즈 풀고 오기
+    * AI Math 6강까지 듣고 오기
+    * AI Math 6강까지 퀴즈 풀고 오기
     * 심화과제 #1 확인하고 오기
     * 멘토링 어떻게 할 것인지 생각해 오기
 
