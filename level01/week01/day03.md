@@ -4,7 +4,7 @@
 
 ### MAP
 
-> https://enfow.github.io/study/statistics/2020/03/04/mle_map
+> https://enfow.github.io/study/statistics/2020/03/04/mle_map <br>
 > (https://archive.is/RVqVb)
 
 베이즈 정리를 이용하여 MLE보다 정확한 추정을 할 수 있다. 베이즈 정리에서 등장하는 개념들이 매우 혼란스러운데, 정리하면 다음과 같다.
