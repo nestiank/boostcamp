@@ -1,4 +1,4 @@
-# Boostcamp Daily Reports
+# boostcamp AI Tech: Daily Reports
 
 > https://boostcamp.connect.or.kr
 

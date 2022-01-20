@@ -22,9 +22,8 @@
 
   * [강의] Python Basics for AI
     * Python Data Structure
-    * Pythonic Code
 
-### 강의 영상 수강 및 과제 수행 (13:00-16:00)
+### 강의 영상 수강 및 퀴즈 제출 (13:00-14:30)
 
   * [강의] AI Math
     * CNN
@@ -32,6 +31,9 @@
   * [퀴즈] AI Math
     * CNN
     * RNN
+
+### 과제 수행 (14:30-16:00)
+
   * [과제] Python Basics for AI & AI Math
     * Backpropagation
 
@@ -39,4 +41,6 @@
 
 ### Special lecture (17:00-18:00)
 
-### Daily report 작성 (18:00-19:00)
+### 어제의 daily report 보충 (18:00-18:20)
+
+### Daily report 작성 (18:20-19:00)
