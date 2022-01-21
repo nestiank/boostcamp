@@ -49,8 +49,8 @@ print("D", [i for i in generator_item])
   * 주간 팀 회고 진행
   * 취미 이야기
 
-### Office hour (17:00-18:00)
+### Office hour (17:00-18:20)
 
   * 과제 해설
 
-### Daily report 작성 (18:00-19:00)
+### Daily report 작성 (18:20-19:00)
