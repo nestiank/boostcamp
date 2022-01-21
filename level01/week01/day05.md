@@ -38,12 +38,19 @@ print("D", [i for i in generator_item])
 
 ### Extended peer session (15:00-16:00)
 
+  * Ice-breaking
+  * 팀별 학습 방식 공유
+  * 팀별 멘토링 방식 공유
+  * 개인별 진로 계획 공유
+
 ### Peer session (16:00-17:00)
 
+  * 다른 팀의 상황 공유
   * 주간 팀 회고 진행
+  * 취미 이야기
 
 ### Office hour (17:00-18:00)
 
-  * 심화과제 해설
+  * 과제 해설
 
 ### Daily report 작성 (18:00-19:00)

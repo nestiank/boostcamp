@@ -53,7 +53,7 @@ Pre-Course에서 다룬 내용을 복습하는 강의들이 제공되었다.
 ### Peer session (16:00-17:00)
 
   * Ground Rule 발표 준비
-  * 다음 Peer session 준비
+  * 다음 peer session 준비
     * AI Math 6강까지 듣고 오기
     * AI Math 6강까지 퀴즈 풀고 오기
     * 심화과제 #1 확인하고 오기
