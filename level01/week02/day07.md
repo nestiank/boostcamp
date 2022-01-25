@@ -143,7 +143,12 @@ dataloader_train_CIFAR10 = torch.utils.data.DataLoader(dataset=dataset_train_CIF
 ### Peer session (16:00-17:00)
 
   * 기본과제 #1 이야기
+  * Dacon 관련 이야기
 
 ### Daily report 작성 (17:00-19:00)
 
 ### Mentoring (19:00-20:00)
+
+  * 논문 구현 스터디 관련 이야기
+  * PyTorch Basics 라이브 코딩
+  * PyTorch Lightning 소개
