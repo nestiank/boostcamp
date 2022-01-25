@@ -132,6 +132,8 @@
 
 ### Peer session (16:00-17:00)
 
+  * 월요일 peer session 활용 방법 이야기
+
 ### 과제 제출 (17:00-21:00)
 
   * [과제] PyTorch Basics for AI
