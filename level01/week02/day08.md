@@ -113,6 +113,10 @@ writer.close()
   * 다음 peer session 준비
     * 다음 주 목요일까지 ResNet-34 구현해 오기
 
-### Daily report 작성 (17:00-18:00)
+### Daily report 작성 (17:00-17:30)
 
-### 어제의 daily report 보충 (18:00-19:00)
+### 과제 수정 및 제출 (17:30-19:00)
+
+  * [과제] PyTorch Basics for AI
+    * PyTorch Custom Model
+    * PyTorch Custom Dataset

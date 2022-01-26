@@ -6,9 +6,24 @@
 
 ### Daily scrum (10:00-10:10)
 
+### 주간 회고 작성 (10:10-10:30)
+
+### 보충 학습 (10:30-12:00)
+
+  * Implementing ResNet-34 with PyTorch
+
+### 보충 학습 (13:00-15:00)
+
+  * Implementing ResNet-34 with PyTorch
+
 ### Extended peer session (15:00-16:00)
 
+  * Ice-breaking
+
 ### Peer session (16:00-17:00)
+
+  * 다른 팀의 상황 공유
+  * 주간 팀 회고 진행
 
 ### Special lecture (17:00-18:00)
 
