@@ -8,9 +8,12 @@
 
 ### 주간 회고 작성 (10:10-10:30)
 
-### 보충 학습 (10:30-12:00)
+### 강의 수강 및 퀴즈 제출 (10:30-12:00)
 
-  * Implementing ResNet-34 with PyTorch
+  * [강의] PyTorch Basics for AI
+    * PyTorch Troubleshooting
+  * [퀴즈] PyTorch Basics for AI
+    * PyTorch Applications
 
 ### 보충 학습 (13:00-15:00)
 
