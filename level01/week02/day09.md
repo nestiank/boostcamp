@@ -37,7 +37,16 @@ for epoch in range(epochs):
 
 사용이 간단하지만 데이터를 균등 분배하기 때문에 메인 worker가 소재한 GPU에서 병목이 발생할 수 있다.
 
-프로세스가 아닌 쓰레드 기반 병렬 처리 방식이기 때문에 I/O 작업으로 인한 context switching이 많은 경우가 아니라면 global interpreter lock 때문에 속도에서의 이점이 없다.
+프로세스가 아닌 쓰레드 기반 병렬 처리 방식이다. 따라서 I/O 작업으로 인한 context switching이 많은 경우가 아니라면 global interpreter lock으로 인해 속도에서의 이점이 부족하다.
+
+  * Single-GPU
+    * Multi-threading: I/O가 별로 없으면 GIL 때문에 속도에서 큰 의미가 없고 I/O가 많으면 의미 있음
+    * Multi-processing: 마찬가지
+  * Multi-GPU
+    * Multi-threading: I/O가 별로 없으면 GIL 때문에 일부만 병렬처리가 가능해서 속도에서 의미가 있긴 하나 부족함
+      * nn.DataParallel
+    * Multi-processing: GIL에서 자유롭기 때문에 훨씬 의미있으나 sampler 그리고 data pipe가 도입되므로 추가적인 연산이 요구됨
+      * nn.parallel.DistributedDataParallel
 
 #### nn.parallel.DistributedDataParallel
 
