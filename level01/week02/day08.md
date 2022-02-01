@@ -7,13 +7,19 @@
 #### Model Saving & Loading
 
 ```python
-model = SomeModel()
+# Full Model Saving for Evaluation
 torch.save(model, os.path.join(PATH, "model.pt"))
-model = torch.load(os.path.join(PATH, "model.pt"))
 
-model_params = SomeModel()
-torch.save(model_params.state_dict(), os.path.join(PATH, "params.pt"))
-model_params.load_state_dict(torch.load(os.path.join(PATH, "params.pt")))
+model = torch.load(os.path.join(PATH, "model.pt"))
+model.eval()
+
+# Full Architecture Saving for Further Learning
+checkpoint = {'model': model.state_dict(), 'optimizer': optimizer.state_dict()}
+torch.save(checkpoint, os.path.join(PATH, "model.pt"))
+
+checkpoint = torch.load(os.path.join(PATH, "model.pt"))
+model.load_state_dict(checkpoint['model'])
+optimizer.load_state_dict(checkpoint['optimizer'])
 ```
 
 #### Freezing for Fine-tuning
