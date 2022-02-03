@@ -20,8 +20,10 @@
     * Line Plotting
     * Scatter Plotting
 
-### Peer session (16:00-17:00)
+### Peer session (16:00-17:10)
 
   * ResNet-34 구현 코드 공유
+  * 다음 peer session 준비
+    * 다음 주 월요일까지 R-CNN 구현해 오기
 
-### Daily report 작성 (17:00-19:00)
+### Daily report 작성 (17:10-19:00)
