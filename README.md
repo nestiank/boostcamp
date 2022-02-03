@@ -18,7 +18,7 @@
       [![Day10](https://img.shields.io/badge/Day10-blue)](/level01/week02/day10.md)
   * **[Week 3] Data Visualization** (01/31~02/05)
     * ![Day11](https://img.shields.io/badge/공휴일-gray)
-      ![Day12](https://img.shields.io/badge/공휴일-gray)
+      [![Day12](https://img.shields.io/badge/Day12-orange)](/level01/week03/day12.md)
       ![Day13](https://img.shields.io/badge/공휴일-gray)
       [![Day14](https://img.shields.io/badge/Day14-green)](/level01/week03/day14.md)
       [![Day15](https://img.shields.io/badge/Day15-blue)](/level01/week03/day15.md)
