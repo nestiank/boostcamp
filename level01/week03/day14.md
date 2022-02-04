@@ -176,5 +176,6 @@ plt.show()
   * ResNet-34 구현 코드 공유
   * 다음 peer session 준비
     * 다음 주 월요일까지 R-CNN 구현해 오기
+    * 주간 회고 양식 작성해 오기
 
 ### Daily report 작성 (17:10-19:00)
