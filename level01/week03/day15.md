@@ -563,6 +563,7 @@ plt.show()
 
   * 주간 팀 회고 진행
   * ResNet 논문 이야기
+    * Gradient vanishing과 overfitting의 연관성 이야기
 
 ### Special lecture (17:00-18:00)
 
