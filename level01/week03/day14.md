@@ -82,14 +82,13 @@ ax.yaxis.set_major_locator(MultipleLocator(0.05))
 from scipy.interpolate import make_interp_spline
 import matplotlib.dates as dates
 
-fig, ax = plt.subplots(1, 1)
-
 # Using date as index
 date = data.index
 date_num = dates.date2num(date)
 date_num_uniform = np.linspace(date_num.min(), date_num.max(), 50)
 date_uniform = dates.num2date(date_num_uniform)
 
+fig, ax = plt.subplots(1, 1)
 spl = make_interp_spline(date_num, data['score'], k=3)
 ax.plot(date_uniform, spl(date_num_uniform))
 plt.show()
@@ -114,7 +113,6 @@ plt.show()
 ```python
 def deg2rad(x):
   return x * np.pi / 180
-
 def rad2deg(x):
   # Inverse transformation of deg2rad()
   return x * 180 / np.pi
@@ -135,7 +133,6 @@ plt.show()
 ```python
 fig, axes = plt.subplots(4, 4)
 features = ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
-
 for i, feat1 in enumerate(features):
   for j, feat2 in enumerate(features):
     if i <= j:
@@ -148,7 +145,6 @@ for i, feat1 in enumerate(features):
         axes[i][j].set_xlabel(feat2)
       if j == 0:
         axes[i][j].set_ylabel(feat1)
-
 plt.tight_layout()
 plt.show()
 ```
