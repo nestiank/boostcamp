@@ -66,14 +66,15 @@ def train_and_eval(done_epochs, train_epochs):
         transform=transform_test
     )
 
+    batch_size = 256
     train_loader = torch.utils.data.DataLoader(
         dataset=dataset_train,
-        batch_size=256,
+        batch_size=batch_size,
         shuffle=True
     )
     test_loader = torch.utils.data.DataLoader(
         dataset=dataset_test,
-        batch_size=256,
+        batch_size=batch_size,
         shuffle=False
     )
 
@@ -114,8 +115,8 @@ def train_and_eval(done_epochs, train_epochs):
         correct = 0
 
         for batch_index, (images, labels) in enumerate(train_loader):
-            if (batch_index + 1) % (printing_ratio * 256) == 0:
-                print('Batch {} / 256'.format(batch_index + 1))
+            if (batch_index + 1) % (printing_ratio * batch_size) == 0:
+                print('Batch {} / {}'.format(batch_index + 1, batch_size))
 
             images = images.to(device)
             labels = labels.to(device)
