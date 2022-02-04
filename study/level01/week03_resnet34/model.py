@@ -1,35 +1,53 @@
 import torch.nn as nn
 
-def conv(in_channels, out_channels, kernel_size, stride, padding):
-    return nn.Sequential(
-        nn.Conv2d(in_channels, out_channels, kernel_size, stride=stride, padding=padding),
-        nn.BatchNorm2d(out_channels),
-        nn.ReLU(inplace=True)
-    )
+def conv(in_channels, out_channels, kernel_size, stride, padding, activation=True):
+    if activation:
+        return nn.Sequential(
+            nn.Conv2d(in_channels, out_channels, kernel_size, stride=stride, padding=padding),
+            nn.BatchNorm2d(out_channels),
+            nn.ReLU(inplace=True)
+        )
+    else:
+        return nn.Sequential(
+            nn.Conv2d(in_channels, out_channels, kernel_size, stride=stride, padding=padding),
+            nn.BatchNorm2d(out_channels)
+        )
 
 class ResidualBlock(nn.Module):
     def __init__(self, in_channels, out_channels, downsample=False):
         super().__init__()
 
+        self.channel_change = in_channels != out_channels
         self.downsample = downsample
-        if self.downsample:
+        if downsample:
             self.layers = nn.Sequential(
                 conv(in_channels, out_channels, 3, 2, 1),
-                conv(out_channels, out_channels, 3, 1, 1)
+                conv(out_channels, out_channels, 3, 1, 1, activation=False)
             )
-            self.downsize = conv(in_channels, out_channels, 1, 2, 0)
+            self.downsize = conv(in_channels, out_channels, 1, 2, 0, activation=False)
+            self.relu = nn.ReLU(inplace=True)
         else:
             self.layers = nn.Sequential(
                 conv(in_channels, out_channels, 3, 1, 1),
-                conv(out_channels, out_channels, 3, 1, 1)
+                conv(out_channels, out_channels, 3, 1, 1, activation=False)
             )
-            self.channel = conv(in_channels, out_channels, 1, 1, 0)
+            self.channel = conv(in_channels, out_channels, 1, 1, 0, activation=False)
+            self.relu = nn.ReLU(inplace=True)
 
     def forward(self, x):
         if self.downsample:
-            return self.layers(x) + self.downsize(x)
+            out = self.layers(x)
+            out += self.downsize(x)
+            return self.relu(out)
         else:
-            return self.layers(x) + self.channel(x)
+            if self.channel_change:
+                out = self.layers(x)
+                out += self.channel(x)
+                return self.relu(out)
+            else:
+                out = self.layers(x)
+                out += x
+                return self.relu(out)
 
 class ResNet34(nn.Module):
     def __init__(self):
