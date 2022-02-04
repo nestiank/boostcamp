@@ -1,3 +1,13 @@
+#
+# ResNet-34 Implementation
+#
+# Paper citation
+#
+# Deep Residual Learning for Image Recognition
+# 2015, Kaiming He et al.
+# https://arxiv.org/pdf/1512.03385.pdf
+#
+
 import torch
 import torch.nn as nn
 import torchvision
