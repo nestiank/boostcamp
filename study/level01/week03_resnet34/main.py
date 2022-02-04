@@ -28,15 +28,17 @@ def update_learning_rate(optimizer, lr):
         param_group['lr'] = lr
 
 def train_and_eval(done_epochs, train_epochs):
-    print('Dataset: preparation start @ {}'.format(time.strftime('%c', time.localtime(time.time()))))
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     ######## Preparing Dataset ########
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print('Dataset: preparation start @ {}'.format(time.strftime('%c', time.localtime(time.time()))))
+
+    timestamp = time.strftime('%c', time.localtime(time.time())).replace(':', '')
     location = {
         'base_path': './dataset',
-        'checkpoints_path': './checkpoints/' + time.strftime('%c', time.localtime(time.time())).replace(':', ''),
-        'results_path': './results/' + time.strftime('%c', time.localtime(time.time())).replace(':', ''),
-        'history_path': './history/' + time.strftime('%c', time.localtime(time.time())).replace(':', '')
+        'checkpoints_path': './checkpoints/' + timestamp,
+        'results_path': './results/' + timestamp,
+        'history_path': './history/' + timestamp
     }
     if not os.path.isdir(location['checkpoints_path']):
         os.makedirs(location['checkpoints_path'])
