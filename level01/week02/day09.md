@@ -133,7 +133,7 @@ tune.run(
   * [과제] PyTorch Basics for AI
     * Transfer Learning & Parameter Tuning
 
-### 강의 수강 (15:20-16:00)
+### 강의 영상 수강 (15:20-16:00)
 
   * [강의] PyTorch Basics for AI
     * Multi-GPU Learning
@@ -147,7 +147,7 @@ tune.run(
 
 ### 과제 정답 확인 및 비교 (17:00-17:30)
 
-### 강의 수강 (17:30-18:00)
+### 강의 영상 수강 (17:30-18:00)
 
   * [강의] PyTorch Basics for AI
     * Hyperparameter Tuning

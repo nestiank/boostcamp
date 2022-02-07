@@ -49,7 +49,7 @@ for epoch in range(epochs):
 
 ### 주간 회고 작성 (11:20-12:00)
 
-### 강의 수강 및 퀴즈 제출 (13:00-14:00)
+### 강의 영상 수강 및 퀴즈 제출 (13:00-14:00)
 
   * [강의] PyTorch Basics for AI
     * PyTorch Troubleshooting
