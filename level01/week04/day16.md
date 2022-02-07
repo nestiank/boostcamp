@@ -2,9 +2,59 @@
 
 ## 노트
 
-Pre-Course에서 다룬 내용을 복습하는 강의들이 제공되었다.
+### Computer Vision Research
 
-오늘의 강의와 관련하여 이번 주에 새로 배운 내용이 생기면 이곳에 작성할 예정이다.
+#### Key Components
+
+  * Data
+  * Model
+    * Single Model
+    * Sequential Model
+    * Ensemble Model
+  * Loss
+  * Optimization
+    * SGD
+    * Momentum
+    * Nesterov Accelerated Gradient
+    * Adagrad
+    * Adadelta
+    * RMSprop
+    * Adam
+
+#### Problems
+
+  * Image Classification
+  * Semantic Segmentation
+  * Matching
+    * Geometric Matching: Image A에 나오는 것을 다른 각도에서 찍은 사진이 image B인데, 같은 물체를 sparse하게 찾아내서 image A를 warp하여 image B처럼 geometric transformation을 해라.
+    * Semantic Matching: Image A에 나오는 것과 비슷한 것을 다른 배경에서 찍은 사진이 image B인데, 비슷한 물체를 sparse하게 찾아내서 image A를 warp하여 image B처럼 geometric transformation을 해라.
+    * Optical Flow: Video와 같이 image들의 시계열 data가 주어지면 이것을 frame별로 쪼갠 다음 frame들을 dense하게 서로 비교해서 frame마다 image 속의 물체들이 어떻게 움직였는지를 frame A를 warp하여 frame B처럼 geometric transformation을 해서 보여라.
+  * Object Detection
+  * Pose Estimation
+  * Image Synthesis
+  * Visual Q&A
+
+#### Optimization Techniques
+
+  * Weight Decay
+  * Learning Rate Decay
+  * Mixup
+  * Bootstrapping
+    * Bagging
+    * Boosting
+  * Bayesian Optimization
+
+#### Regularization Techniques
+
+  * Mini-Batch Training
+  * Early Stopping
+  * Parameter Norm Penalty
+  * K-Fold Validation
+  * Data Augmentation
+  * Noise Robustness
+  * Label Smoothing
+  * Dropout
+  * Batch Normalization
 
 ## 일지
 
@@ -45,8 +95,8 @@ Pre-Course에서 다룬 내용을 복습하는 강의들이 제공되었다.
   * [과제] Deep Learning Basics
     * CNN
 
-### Peer session (16:00-17:00)
+### Peer session (16:00-17:10)
 
   * R-CNN 구현 시도 공유
 
-### Daily report 작성 (17:00-19:00)
+### Daily report 작성 (17:10-19:00)
