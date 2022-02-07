@@ -112,6 +112,8 @@ def train_and_eval(done_epochs, train_epochs):
             if (batch_index + 1) % (printing_ratio * 256) == 0:
                 print('Batch {} / 256'.format(batch_index + 1))
 
+            model.init_params(images)
+
             images = images.to(device)
             targets = targets.to(device)
 
@@ -163,6 +165,8 @@ def train_and_eval(done_epochs, train_epochs):
         test_loss = 0
 
         for batch_index, (images, targets) in enumerate(test_loader):
+            model.init_params(images)
+
             images = images.to(device)
             targets = targets.to(device)
 
