@@ -2,19 +2,45 @@
 
 ## 노트
 
+### Transformer
+
+구조를 이해하는 것보다 어떻게 사용되는지를 이해하는 것이 더 중요한 것 같다. 작년 초에도 같은 생각이어서 아래의 논문들을 읽었지만 지금은 하나도 기억이 나지 않는다. 따라서 여기에 구조를 자세히 정리하는 대신 아래의 논문을 나누어 읽기로 한다.
+
+#### Original Proposal
+
+> https://arxiv.org/pdf/1706.03762
+
+  * Attention Is All You Need
+
+#### Survey
+
+> https://arxiv.org/pdf/2101.01169
+
+  * Transformers in Vision: A Survey
+
+#### Related Works
+
+  * Non-local Neural Networks
+  * BERT
+  * An Image is Worth 16x16 Words
+  * UNITER
+  * Unicoder
+  * ViLBERT
+  * Oscar
+  * 12-in-1
+  * VILLA
+  * LXMERT
+  * VirTex
+  * DEIT
+  * DETR
+  * Deformable DETR
+  * Generative Pretraining from Pixels
+
 ## 일지
 
 ### Daily scrum (10:00-10:10)
 
-### 강의 영상 수강 및 퀴즈 제출 (10:10-12:00)
-
-  * [강의] Deep Learning Basics
-    * Modern CNN
-    * Computer Vision Applications
-  * [퀴즈] Deep Learning Basics
-    * CNN
-
-### 강의 영상 수강 및 과제 제출 (13:00-14:20)
+### 강의 영상 수강 및 과제 제출 (10:10-12:00)
 
   * [강의] Deep Learning Basics
     * RNN
@@ -22,7 +48,13 @@
   * [과제] Deep Learning Basics
     * LSTM
 
-### 강의 영상 수강 및 퀴즈 제출 (14:20-15:30)
+### 보충 학습 (13:00-13:40)
+
+> https://github.com/nestiank/cv-paper-study
+
+  * 예전에 작성한 논문 정리 노트를 다시 정리
+
+### 강의 영상 수강 및 퀴즈 제출 (13:40-15:40)
 
   * [강의] Deep Learning Basics
     * Transformer
@@ -30,7 +62,7 @@
   * [퀴즈] Deep Learning Basics
     * RNN
 
-### 과제 제출 (15:30-16:00)
+### 과제 제출 (15:40-16:00)
 
   * [과제] Deep Learning Basics
     * MHA

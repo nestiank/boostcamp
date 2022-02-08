@@ -9,11 +9,19 @@
 ### 강의 영상 수강 및 퀴즈 제출 (10:10-12:00)
 
   * [강의] Deep Learning Basics
+    * Modern CNN
+    * Computer Vision Applications
+  * [퀴즈] Deep Learning Basics
+    * CNN
+
+### 강의 영상 수강 및 퀴즈 제출 (13:00-14:30)
+
+  * [강의] Deep Learning Basics
     * Generative Models I/II
   * [퀴즈] Deep Learning Basics
     * Generative Models
 
-### 과제 수행 (13:00-16:00)
+### 과제 수행 (14:30-16:00)
 
   * [과제] Deep Learning Basics
     * ViT
