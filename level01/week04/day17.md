@@ -4,7 +4,7 @@
 
 ### Transformer
 
-구조를 이해하는 것보다 어떻게 사용되는지를 이해하는 것이 더 중요한 것 같다. 작년 초에도 같은 생각이어서 아래의 논문들을 읽었지만 지금은 하나도 기억이 나지 않는다. 따라서 여기에 구조를 자세히 정리하는 대신 아래의 논문을 나누어 읽기로 한다.
+구조를 이해하는 것보다 어떻게 사용되는지를 이해하는 것이 더 중요한 것 같다. 작년 초에도 같은 생각이어서 아래의 논문들을 읽었지만 지금은 하나도 기억이 나지 않는다. 따라서 여기에 구조를 자세히 정리하는 대신 아래의 논문들을 나누어 읽기로 한다.
 
 #### Original Proposal
 
@@ -69,6 +69,18 @@
 
 ### Peer session (16:00-17:00)
 
+  * 커리어 관련 이야기
+  * ResNet 논문 이야기
+    * Gradient vanishing과 degradation의 연관성 이야기
+  * 다음 peer session 준비
+    * 다음 주 월요일까지 transformer proposal 논문 리뷰해 오기
+
 ### Daily report 작성 (17:00-19:00)
 
-### Mentoring (19:00-20:00)
+### Mentoring (19:00-20:10)
+
+  * ConvNeXt 소개
+  * Diffusion model 소개
+  * SDEdit 소개
+  * Adversarial attack 소개
+  * 사전 질문들에 대한 답변
