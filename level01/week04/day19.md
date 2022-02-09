@@ -6,17 +6,31 @@
 
 ### Daily scrum (10:00-10:10)
 
-### 과제 수행 (10:10-12:00)
+### 강의 영상 수강 및 퀴즈 제출 (10:10-10:40)
+
+  * [강의] Deep Learning Basics
+    * Generative Models II
+  * [퀴즈] Deep Learning Basics
+    * Generative Models
+
+### 과제 수행 (10:40-11:00)
 
   * [과제] Deep Learning Basics
     * AAE
 
-### 과제 수행 (13:00-15:00)
+### 보충 학습 (11:00-12:00)
 
-  * [과제] Deep Learning Basics
-    * AAE
+> https://github.com/nestiank/boostcamp/tree/main/study/level01/week05_transformer
 
-### 과제 정답 확인 및 비교 (15:00-16:00)
+  * Transformer 논문 정리
+
+### 보충 학습 (13:00-15:30)
+
+> https://github.com/nestiank/boostcamp/tree/main/study/level01/week05_transformer
+
+  * Transformer 논문 정리
+
+### 과제 정답 확인 및 비교 (15:30-16:00)
 
 ### Peer session (16:00-17:00)
 
