@@ -22,7 +22,7 @@
 
   * Non-local Neural Networks
   * BERT
-  * An Image is Worth 16x16 Words
+  * ViT
   * UNITER
   * Unicoder
   * ViLBERT
