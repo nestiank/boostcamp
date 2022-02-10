@@ -15,7 +15,7 @@
 
 ### 주간 회고 작성 (13:00-13:30)
 
-### Daily report 작성 (13:30-15:00)
+### 어제의 daily report 보충 (13:30-15:00)
 
 ### Extended peer session (15:00-16:00)
 
