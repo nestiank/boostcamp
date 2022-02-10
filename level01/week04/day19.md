@@ -25,19 +25,19 @@
 
 ### Daily scrum (10:00-10:10)
 
-### 과제 정답 확인 및 비교 (10:10-10:40)
-
-### 강의 영상 수강 및 퀴즈 제출 (10:40-11:40)
+### 강의 영상 수강 및 퀴즈 제출 (10:10-11:20)
 
   * [강의] Deep Learning Basics
     * Generative Models II
   * [퀴즈] Deep Learning Basics
     * Generative Models
 
-### 과제 수행 (11:40-12:00)
+### 과제 수행 (11:20-11:40)
 
   * [과제] Deep Learning Basics
     * AAE
+
+### 과제 정답 확인 및 비교 (11:40-12:00)
 
 ### 보충 학습 (13:00-16:00)
 
