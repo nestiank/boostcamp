@@ -1,8 +1,8 @@
-# Week04 Saturday (2022/02/12)
+# Week04 Sunday (2022/02/13)
 
 ## 일지
 
-### 보충 학습 (16:00-21:00)
+### 보충 학습 (14:00-18:40)
 
 > https://github.com/nestiank/boostcamp/tree/main/study/level01/week05_transformer
 

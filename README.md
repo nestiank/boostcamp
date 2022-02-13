@@ -36,8 +36,8 @@
     [![Day18](https://img.shields.io/badge/Day18-yellow)](/level01/week04/day18.md)
     [![Day19](https://img.shields.io/badge/Day19-green)](/level01/week04/day19.md)
     [![Day20](https://img.shields.io/badge/Day20-blue)](/level01/week04/day20.md)
-    [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level01/week04/saturday.md)
-    ![Sun](https://img.shields.io/badge/일요일-gray)
+    ![Sat](https://img.shields.io/badge/토요일-gray)
+    [![Sun](https://img.shields.io/badge/일요일-purple)](/level01/week04/sunday.md)
   * [Week 5] AI Service Development Basics (Sub: Data Visualization) (02/14~02/18) <br>
     <!-- [![Day21](https://img.shields.io/badge/Day21-red)](/level01/week05/day21.md)
     [![Day22](https://img.shields.io/badge/Day22-orange)](/level01/week05/day22.md)
