@@ -9,13 +9,13 @@
   * Variational Inference: Posterior density를 가장 잘 근사할 수 있는 variational density를 찾는 과정
     * ELBO: Evidence Lower Bound
     * log density = ELBO + KL(variational||posterior)
-    * KL-Divergence >= 0이므로 ELBO는 evidence density의 하한이 됨
-    * KL-Divergence를 최소화하기 위해 ELBO를 최대화(샌드위치 방식)
+    * KL-divergence >= 0이므로 ELBO는 evidence density의 하한이 됨
+    * KL-divergence를 최소화하기 위해 ELBO를 최대화(샌드위치 방식)
   * ELBO = reconstruction term - prior fitting term
     * Auto-encoder의 reconstruction loss를 최소화
     * Variational density와 latent density의 차이를 최소화
   * Latent density를 구하는 방법: Isotropic Gaussian density로 가정
-    * KL-Divergence의 미분가능성을 고려한 결정
+    * KL-divergence의 미분가능성을 고려한 결정
 
 #### Adversarial Auto-encoder
 

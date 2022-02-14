@@ -46,10 +46,10 @@
 
 #### Regularization Techniques
 
-  * Mini-Batch Training
+  * Mini-batch Training
   * Early Stopping
   * Parameter Norm Penalty
-  * K-Fold Validation
+  * K-fold Validation
   * Data Augmentation
   * Noise Robustness
   * Label Smoothing
