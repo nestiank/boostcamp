@@ -6,7 +6,17 @@
 
 ### Daily scrum (10:00-10:10)
 
+### 강의 영상 수강 (10:10-12:00)
+
+  * [강의] Data Visualization
+    * Interactive Visualization
+    * Interactive Visualization Implementation
+    * Custom Matplotlib Theme
+    * Image & Text Visualization Techniques
+
 ### 주간 회고 작성 (13:00-13:30)
+
+### Daily report 작성 (13:30-15:00)
 
 ### Extended peer session (15:00-16:00)
 

@@ -30,7 +30,7 @@
     [![Day15](https://img.shields.io/badge/Day15-blue)](/level01/week03/day15.md)
     [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level01/week03/saturday.md)
     ![Sun](https://img.shields.io/badge/일요일-gray)
-  * **[Week 4] Deep Learning Basics** (Sub: Data Visualization) (02/07~02/11) <br>
+  * [Week 4] Deep Learning Basics (Sub: Data Visualization) (02/07~02/11) <br>
     [![Day16](https://img.shields.io/badge/Day16-red)](/level01/week04/day16.md)
     [![Day17](https://img.shields.io/badge/Day17-orange)](/level01/week04/day17.md)
     [![Day18](https://img.shields.io/badge/Day18-yellow)](/level01/week04/day18.md)
@@ -38,17 +38,12 @@
     [![Day20](https://img.shields.io/badge/Day20-blue)](/level01/week04/day20.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
     [![Sun](https://img.shields.io/badge/일요일-purple)](/level01/week04/sunday.md)
-  * [Week 5] AI Service Development Basics (Sub: Data Visualization) (02/14~02/18) <br>
-    <!-- [![Day21](https://img.shields.io/badge/Day21-red)](/level01/week05/day21.md)
+  * [Week 5] **AI Service Development Basics** (Sub: Data Visualization) (02/14~02/18) <br>
+    [![Day21](https://img.shields.io/badge/Day21-red)](/level01/week05/day21.md)
     [![Day22](https://img.shields.io/badge/Day22-orange)](/level01/week05/day22.md)
     [![Day23](https://img.shields.io/badge/Day23-yellow)](/level01/week05/day23.md)
     [![Day24](https://img.shields.io/badge/Day24-green)](/level01/week05/day24.md)
-    [![Day25](https://img.shields.io/badge/Day25-blue)](/level01/week05/day25.md) -->
-    ![Day21](https://img.shields.io/badge/Day21-red)
-    ![Day22](https://img.shields.io/badge/Day22-orange)
-    ![Day23](https://img.shields.io/badge/Day23-yellow)
-    ![Day24](https://img.shields.io/badge/Day24-green)
-    ![Day25](https://img.shields.io/badge/Day25-blue)
+    [![Day25](https://img.shields.io/badge/Day25-blue)](/level01/week05/day25.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
     ![Sun](https://img.shields.io/badge/일요일-gray)
 
