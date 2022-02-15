@@ -38,9 +38,9 @@
 ### 강의 영상 수강 (10:10-12:00)
 
   * [강의] Python Basics for AI
-    * Function and Console I/O
-    * Conditionals and Loops
-    * String and Advanced Function Concept
+    * Function & Console I/O
+    * Conditionals & Loops
+    * String & Advanced Function Concept
 
 ### 과제 수행 (13:00-14:00)
 

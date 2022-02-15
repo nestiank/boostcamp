@@ -88,7 +88,7 @@ writer.close()
 %tensorboard --logdir PATH
 ```
 
-#### Weights and Biases
+#### Weights & Biases
 
 > https://docs.wandb.ai/guides/track
 
