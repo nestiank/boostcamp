@@ -64,12 +64,12 @@
     ![Sun](https://img.shields.io/badge/일요일-gray)
   * [Week 7] Image Classification II (02/28~03/04) <br>
     <!-- [![Day31](https://img.shields.io/badge/Day31-red)](/level01/week07/day31.md)
-    [![Day32](https://img.shields.io/badge/Day32-orange)](/level01/week07/day32.md)
+    ![Day32](https://img.shields.io/badge/공휴일-gray)
     [![Day33](https://img.shields.io/badge/Day33-yellow)](/level01/week07/day33.md)
     [![Day34](https://img.shields.io/badge/Day34-green)](/level01/week07/day34.md)
     [![Day35](https://img.shields.io/badge/Day35-blue)](/level01/week07/day35.md) -->
     ![Day31](https://img.shields.io/badge/Day31-red)
-    ![Day32](https://img.shields.io/badge/Day32-orange)
+    ![Day32](https://img.shields.io/badge/공휴일-gray)
     ![Day33](https://img.shields.io/badge/Day33-yellow)
     ![Day34](https://img.shields.io/badge/Day34-green)
     ![Day35](https://img.shields.io/badge/Day35-blue)
