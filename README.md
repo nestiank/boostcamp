@@ -50,29 +50,19 @@
 #### P Stage
 
   * [Week 6] Image Classification I (02/21~02/25) <br>
-    <!-- [![Day26](https://img.shields.io/badge/Day26-red)](/level01/week06/day26.md)
+    [![Day26](https://img.shields.io/badge/Day26-red)](/level01/week06/day26.md)
     [![Day27](https://img.shields.io/badge/Day27-orange)](/level01/week06/day27.md)
     [![Day28](https://img.shields.io/badge/Day28-yellow)](/level01/week06/day28.md)
     [![Day29](https://img.shields.io/badge/Day29-green)](/level01/week06/day29.md)
-    [![Day30](https://img.shields.io/badge/Day30-blue)](/level01/week06/day30.md) -->
-    ![Day26](https://img.shields.io/badge/Day26-red)
-    ![Day27](https://img.shields.io/badge/Day27-orange)
-    ![Day28](https://img.shields.io/badge/Day28-yellow)
-    ![Day29](https://img.shields.io/badge/Day29-green)
-    ![Day30](https://img.shields.io/badge/Day30-blue)
+    [![Day30](https://img.shields.io/badge/Day30-blue)](/level01/week06/day30.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
     ![Sun](https://img.shields.io/badge/일요일-gray)
   * [Week 7] Image Classification II (02/28~03/04) <br>
-    <!-- [![Day31](https://img.shields.io/badge/Day31-red)](/level01/week07/day31.md)
+    [![Day31](https://img.shields.io/badge/Day31-red)](/level01/week07/day31.md)
     ![Day32](https://img.shields.io/badge/공휴일-gray)
     [![Day33](https://img.shields.io/badge/Day33-yellow)](/level01/week07/day33.md)
     [![Day34](https://img.shields.io/badge/Day34-green)](/level01/week07/day34.md)
-    [![Day35](https://img.shields.io/badge/Day35-blue)](/level01/week07/day35.md) -->
-    ![Day31](https://img.shields.io/badge/Day31-red)
-    ![Day32](https://img.shields.io/badge/공휴일-gray)
-    ![Day33](https://img.shields.io/badge/Day33-yellow)
-    ![Day34](https://img.shields.io/badge/Day34-green)
-    ![Day35](https://img.shields.io/badge/Day35-blue)
+    [![Day35](https://img.shields.io/badge/Day35-blue)](/level01/week07/day35.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
     ![Sun](https://img.shields.io/badge/일요일-gray)
 
