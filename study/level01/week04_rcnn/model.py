@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torchvision.models as models
-import torchvision.transforms as transform
+import torchvision.transforms as transforms
 
 import numpy as np
 import selectivesearch as ss
@@ -9,7 +9,7 @@ class SelectiveSearch(nn.Module):
     def __init__(self):
         super().__init__()
 
-        self.resize = transform.Resize([227, 227])
+        self.resize = transforms.Resize([227, 227])
 
     def init_params(self, images):
         # Parameters to be trained
@@ -54,7 +54,7 @@ class SelectiveSearch(nn.Module):
                 if len(square['labels'] == 1):
                     # Crop image
                     left, top, width, height = square['rect']
-                    cropped_image = transform.functional.crop(image, top=top, left=left, height=height, width=width)
+                    cropped_image = transforms.functional.crop(image, top=top, left=left, height=height, width=width)
                     cropped_image = self.resize(cropped_image)
 
                     # Train AlexNet

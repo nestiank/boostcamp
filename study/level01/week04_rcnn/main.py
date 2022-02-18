@@ -109,8 +109,8 @@ def train_and_eval(done_epochs, train_epochs):
         train_loss = 0
 
         for batch_index, (images, targets) in enumerate(train_loader):
-            if (batch_index + 1) % (printing_ratio * 256) == 0:
-                print('Batch {} / 256'.format(batch_index + 1))
+            if (batch_index + 1) % (printing_ratio * batch_size) == 0:
+                print('Batch {} / {}'.format(batch_index + 1, batch_size))
 
             model.init_params(images)
 
