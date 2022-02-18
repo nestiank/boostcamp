@@ -117,7 +117,7 @@ entry_points:
 
   * 다음 peer session 준비
     * 내일까지 data structure 면접 질문 공부해 오기
-    * 다음 주 월요일까지 transformer 구현해 오기
+    * 다음 주 월요일까지 ViT 구현해 오기
 
 ### 커뮤니티 세션 (17:00-18:20)
 
