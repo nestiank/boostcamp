@@ -28,4 +28,7 @@
   * 프로젝트 학습 데이터 확인
   * 프로젝트 진행 방식 논의
 
-### Daily report 작성 (17:50-19:00)
+### 강의 영상 수강 (17:50-19:00)
+
+  * [강의] Image Classification
+    * Data Generation
