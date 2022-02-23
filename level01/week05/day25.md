@@ -43,7 +43,7 @@
   * 주간 팀 회고 진행
   * Statistics 면접 질문 이야기
   * 다음 peer session 준비
-    * 다음 주 수요일까지 ML 면접 질문 공부해 오기
+    * 다음 주 수요일까지 machine learning 면접 질문 공부해 오기
 
 ### Daily report 작성 (17:00-18:00)
 
