@@ -14,8 +14,10 @@ import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
+from torch.utils.data import DataLoader
 
 import os
+import shutil
 import time
 import pickle
 
@@ -23,28 +25,45 @@ import pandas as pd
 
 from model import ViT
 
+def get_time() -> str:
+    return time.strftime('%c', time.localtime(time.time()))
+
+def clear_pycache(root: str = './') -> None:
+    if os.path.exists(os.path.join(root, '__pycache__')):
+        shutil.rmtree(os.path.join(root, '__pycache__'))
+
+def clear_log_folders(root: str = './') -> None:
+    if os.path.exists(os.path.join(root, 'checkpoints')):
+        shutil.rmtree(os.path.join(root, 'checkpoints'))
+    if os.path.exists(os.path.join(root, 'history')):
+        shutil.rmtree(os.path.join(root, 'history'))
+    if os.path.exists(os.path.join(root, 'results')):
+        shutil.rmtree(os.path.join(root, 'results'))
+
 # For updating learning rate
 def update_learning_rate(optimizer, lr):
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 
-def train_and_eval(done_epochs, train_epochs):
+def train_and_eval(done_epochs: int, train_epochs: int, clear_log: bool = False) -> None:
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    ######## Preparing Dataset ########
-    print('Dataset: preparation start @ {}'.format(time.strftime('%c', time.localtime(time.time()))))
+    if clear_log:
+        clear_log_folders()
 
-    timestamp = time.strftime('%c', time.localtime(time.time())).replace(':', '')
+    ######## Preparing Dataset ########
+    print(f"Dataset | Data preparation start @ {get_time()}", flush=True)
+
+    timestamp = get_time().replace(':', '')
     location = {
         'base_path': './dataset',
-        'checkpoints_path': './checkpoints/' + timestamp,
-        'results_path': './results/' + timestamp,
-        'history_path': './history/' + timestamp
+        'checkpoints_path': os.path.join('./checkpoints', timestamp),
+        'history_path': os.path.join('./history', timestamp),
+        'results_path': os.path.join('./results', timestamp)
     }
-    if not os.path.isdir(location['checkpoints_path']):
-        os.makedirs(location['checkpoints_path'])
-        os.makedirs(location['results_path'])
-        os.makedirs(location['history_path'])
+    os.makedirs(location['checkpoints_path'])
+    os.makedirs(location['results_path'])
+    os.makedirs(location['history_path'])
 
     transform_train = transforms.Compose([
         transforms.Resize([224, 224]),
@@ -69,16 +88,21 @@ def train_and_eval(done_epochs, train_epochs):
     )
 
     batch_size = 256
-    train_loader = torch.utils.data.DataLoader(
+
+    train_loader = DataLoader(
         dataset=dataset_train,
         batch_size=batch_size,
         shuffle=True
     )
-    test_loader = torch.utils.data.DataLoader(
+    test_loader = DataLoader(
         dataset=dataset_test,
         batch_size=batch_size,
-        shuffle=False
+        shuffle=False,
+        drop_last=False
     )
+
+    train_batches = len(train_loader)
+    test_batches = len(test_loader)
 
     ######## Model & Hyperparameters ########
     model = ViT().to(device)
@@ -98,18 +122,20 @@ def train_and_eval(done_epochs, train_epochs):
 
     ######## Loading Model ########
     if done_epochs > 0:
-        checkpoint = torch.load('./checkpoints/epoch' + str(done_epochs) + '.pt', map_location=device)
+        checkpoint = torch.load(f"./checkpoints/epoch{done_epochs}.pt", map_location=device)
         model.load_state_dict(checkpoint['model'])
         optimizer.load_state_dict(checkpoint['optimizer'])
-        with open('./history/epoch' + str(done_epochs) + '.pickle', 'rb') as fr:
+        with open(f"./history/epoch{done_epochs}.pickle", 'rb') as fr:
             history = pickle.load(fr)
     else:
         history = {'train_loss': [], 'train_acc': []}
 
     ######## Train ########
+    print('Train | Training start @ {}'.format(get_time()), flush=True)
+
     for epoch in range(done_epochs, done_epochs + train_epochs):
         if (epoch + 1) % (printing_ratio * train_epochs) == 0:
-            print('Train: Epoch {:02d} start @ {}'.format(epoch + 1, time.strftime('%c', time.localtime(time.time()))))
+            print('Train | Epoch {:02d} start @ {}'.format(epoch + 1, get_time()), flush=True)
 
         model.train()
         train_loss = 0
@@ -117,8 +143,7 @@ def train_and_eval(done_epochs, train_epochs):
         correct = 0
 
         for batch_index, (images, labels) in enumerate(train_loader):
-            if (batch_index + 1) % (printing_ratio * batch_size) == 0:
-                print('Batch {} / {}'.format(batch_index + 1, batch_size))
+            print('Train | Epoch {:02d} | Batch {} / {} start'.format(epoch + 1, batch_index + 1, train_batches), flush=True)
 
             images = images.to(device)
             labels = labels.to(device)
@@ -146,47 +171,40 @@ def train_and_eval(done_epochs, train_epochs):
             history['train_loss'].append(train_loss)
             history['train_acc'].append(train_acc)
 
-        if (epoch + 1) % (printing_ratio * train_epochs) == 0:
-            print('Train: Epoch [{:02d}/{:02d}], Loss: {:.4f}'.format(epoch + 1, done_epochs + train_epochs, train_loss))
-            print('Train accuracy: {:.4f}%'.format(train_acc))
+        print('Train | Loss: {:.4f} | Accuracy: {:.4f}%'.format(train_loss, train_acc), flush=True)
+
+        # Save checkpoint
+        checkpoint = {'model': model.state_dict(), 'optimizer': optimizer.state_dict()}
+        torch.save(checkpoint, os.path.join(location['checkpoints_path'], f"epoch{epoch + 1}.pt"))
 
         # Decay learning rate
         if (epoch + 1) % (lr_update_ratio * train_epochs) == 0:
             learning_rate /= 10
             update_learning_rate(optimizer, learning_rate)
 
-        # Save checkpoint
-        if (epoch + 1) % (printing_ratio * train_epochs) == 0:
-            checkpoint = {'model': model.state_dict(), 'optimizer': optimizer.state_dict()}
-            torch.save(checkpoint, location['checkpoints_path'] + '/epoch' + str(epoch + 1) + '.pt')
-
         ######## Saving History ########
-        if (epoch + 1) % (printing_ratio * train_epochs) == 0:
-            with open(location['history_path'] + '/epoch' + str(epoch + 1) + '.pickle', 'wb') as fw:
-                pickle.dump(history, fw)
+        with open(os.path.join(location['history_path'], f"epoch{epoch + 1}.pickle"), 'wb') as fw:
+            pickle.dump(history, fw)
 
-    print('Finished training @ {}'.format(time.strftime('%c', time.localtime(time.time()))))
+    print(f"Train | Finished training @ {get_time()}", flush=True)
 
     ######## Test ########
-    print('Test: evaluation start @ {}'.format(time.strftime('%c', time.localtime(time.time()))))
+    print(f"Test | Evaluation start @ {get_time()}", flush=True)
 
     model.eval()
-
     with torch.no_grad():
-        test_loss = 0
         total = 0
         correct = 0
 
         for batch_index, (images, labels) in enumerate(test_loader):
+            print('Test | Batch {} / {} start'.format(batch_index + 1, test_batches), flush=True)
+
             images = images.to(device)
             labels = labels.to(device)
 
             # Forward pass
             outputs = model(images)
             loss = criterion(outputs, labels)
-
-            # Test loss
-            test_loss += loss.item()
 
             # Test accuracy
             _, predicted = torch.max(outputs.data, 1)
@@ -195,8 +213,8 @@ def train_and_eval(done_epochs, train_epochs):
 
         test_acc = 100 * correct / total
 
-        print('Test loss: {:.4f}'.format(test_loss))
-        print('Test accuracy: {:.4f}%'.format(test_acc))
+    print('Test | Accuracy: {:.4f}%'.format(test_acc))
+    print(f"Test | Finished evaluation @ {get_time()}", flush=True)
 
     ######## Learning Statistics ########
     if train_epochs == 0:
@@ -219,7 +237,9 @@ def train_and_eval(done_epochs, train_epochs):
     plt.legend()
 
     plt.tight_layout()
-    plt.savefig(location['results_path'] + '/result' + time.strftime('_%Y%m%d_%H%M%S', time.localtime(time.time())) + '.png')
+    plt.savefig(os.path.join(location['results_path'], 'result.png'), dpi=1000)
+
+    print(f"Code execution done @ {get_time()}", flush=True)
 
 if __name__ == '__main__':
     # Last checkpoint's training position
@@ -228,4 +248,4 @@ if __name__ == '__main__':
     # How much epochs to train now
     train_epochs = 10
 
-    train_and_eval(done_epochs, train_epochs)
+    train_and_eval(done_epochs, train_epochs, clear_log=False)
