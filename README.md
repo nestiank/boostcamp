@@ -70,8 +70,22 @@
 
 #### U Stage
 
-  * [Week 8] Computer Vision Basics & Research Trends I (03/07~03/11)
-  * [Week 9] Computer Vision Basics & Research Trends II (03/14~03/18)
+  * [Week 8] Computer Vision Basics & Research Trends I (03/07~03/11) <br>
+    [![Day36](https://img.shields.io/badge/Day36-red)](/level02/week08/day36.md)
+    [![Day37](https://img.shields.io/badge/Day37-orange)](/level02/week08/day37.md)
+    ![Day38](https://img.shields.io/badge/공휴일-gray)
+    [![Day39](https://img.shields.io/badge/Day39-green)](/level02/week08/day39.md)
+    [![Day40](https://img.shields.io/badge/Day40-blue)](/level02/week08/day40.md)
+    ![Sat](https://img.shields.io/badge/토요일-gray)
+    ![Sun](https://img.shields.io/badge/일요일-gray)
+  * [Week 9] Computer Vision Basics & Research Trends II (03/14~03/18) <br>
+    [![Day41](https://img.shields.io/badge/Day41-red)](/level02/week09/day41.md)
+    [![Day42](https://img.shields.io/badge/Day42-orange)](/level02/week09/day42.md)
+    [![Day43](https://img.shields.io/badge/Day43-yellow)](/level02/week09/day43.md)
+    [![Day44](https://img.shields.io/badge/Day44-green)](/level02/week09/day44.md)
+    [![Day45](https://img.shields.io/badge/Day45-blue)](/level02/week09/day45.md)
+    ![Sat](https://img.shields.io/badge/토요일-gray)
+    ![Sun](https://img.shields.io/badge/일요일-gray)
 
 #### P Stage
 
