@@ -48,7 +48,7 @@
 
 ### Extended mentoring (19:00-20:40)
 
-  * NLP & CV 역사 및 동향 소개
+  * NLP & CV & RecSys 역사 및 동향 소개
   * 인공지능 커뮤니티 활동 소개
   * Diffusion model 소개
   * Text to image 기술 소개
