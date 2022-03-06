@@ -64,7 +64,7 @@
     [![Day34](https://img.shields.io/badge/Day34-green)](/level01/week07/day34.md)
     [![Day35](https://img.shields.io/badge/Day35-blue)](/level01/week07/day35.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
-    ![Sun](https://img.shields.io/badge/일요일-gray)
+    [![Sun](https://img.shields.io/badge/일요일-purple)](/level01/week07/sunday.md)
 
 ### Level 2
 
