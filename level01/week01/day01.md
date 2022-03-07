@@ -22,7 +22,7 @@
 
   * 캠프 소개
 
-### Peer session 준비 모임 (11:00-12:00)
+### Meetup session (11:00-12:00)
 
   * Ice-breaking
   * Peer session 계획서 작성 및 업로드
