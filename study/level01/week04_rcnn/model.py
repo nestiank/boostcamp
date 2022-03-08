@@ -1,17 +1,20 @@
+import torch
 import torch.nn as nn
 import torchvision.models as models
 import torchvision.transforms as transforms
+
+from typing import Tuple
 
 import numpy as np
 import selectivesearch as ss
 
 class SelectiveSearch(nn.Module):
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__()
 
         self.resize = transforms.Resize([227, 227])
 
-    def init_params(self, images):
+    def init_params(self, images: torch.Tensor) -> None:
         # Parameters to be trained
         self.alexnet = []
 
@@ -30,7 +33,7 @@ class SelectiveSearch(nn.Module):
             self.image_regions.append(regions)
             self.predictions.append([])
 
-            for j, square in enumerate(regions):
+            for _, square in enumerate(regions):
                 if len(square['labels'] == 1):
                     # Prepare AlexNet
                     alexnet = models.alexnet(pretrained=True, num_classes=20)
@@ -39,7 +42,7 @@ class SelectiveSearch(nn.Module):
                     # Prepare making predictions
                     self.predictions[i].append(0)
 
-    def forward(self, images):
+    def forward(self, images: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         '''
         Input: images
         Returns:
@@ -60,15 +63,15 @@ class SelectiveSearch(nn.Module):
                     # Train AlexNet
                     self.predictions[i][j] = np.argmax(self.alexnet[i][j](cropped_image))
 
-        return self.labeled_images, self.predictions
+        return (self.labeled_images, self.predictions)
 
-class RCNN(nn.module):
-    def __init__(self):
+class RCNN(nn.Module):
+    def __init__(self) -> None:
         super().__init__()
 
         self.ss = SelectiveSearch()
 
-    def init_params(self, images):
+    def init_params(self, images: torch.Tensor) -> None:
         self.ss.init_params(images)
 
         # Train only AlexNets
@@ -78,13 +81,12 @@ class RCNN(nn.module):
             for param in alexnet.parameters():
                 param.requires_grad = True
 
-    def forward(self, images):
-        labeled_images, predictions = self.ss(images)
-        return (labeled_images, predictions)
+    def forward(self, images: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
+        return self.ss(images)
 
 class NotImplementedLoss(nn.modules.loss._Loss):
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__()
 
-    def forward(self, input, target):
+    def forward(self, input: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
         raise NotImplementedError

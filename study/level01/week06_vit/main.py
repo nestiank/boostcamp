@@ -21,8 +21,6 @@ import shutil
 import time
 import pickle
 
-import pandas as pd
-
 from model import ViT
 
 def get_time() -> str:
@@ -41,7 +39,7 @@ def clear_log_folders(root: str = './') -> None:
         shutil.rmtree(os.path.join(root, 'results'))
 
 # For updating learning rate
-def update_learning_rate(optimizer, lr):
+def update_learning_rate(optimizer, lr: float) -> None:
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 
@@ -161,9 +159,9 @@ def train_and_eval(done_epochs: int, train_epochs: int, clear_log: bool = False)
             train_loss += loss.item()
 
             # Train accuracy
-            _, predicted = torch.max(outputs.data, 1)
+            prediction = torch.argmax(outputs, dim=1)
             total += labels.size(0)
-            correct += (predicted == labels).sum().item()
+            correct += (prediction == labels).sum().item()
 
         train_acc = 100 * correct / total
 
@@ -207,9 +205,9 @@ def train_and_eval(done_epochs: int, train_epochs: int, clear_log: bool = False)
             loss = criterion(outputs, labels)
 
             # Test accuracy
-            _, predicted = torch.max(outputs.data, 1)
+            prediction = torch.argmax(outputs, dim=1)
             total += labels.size(0)
-            correct += (predicted == labels).sum().item()
+            correct += (prediction == labels).sum().item()
 
         test_acc = 100 * correct / total
 

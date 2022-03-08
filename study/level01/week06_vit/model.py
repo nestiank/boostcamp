@@ -21,9 +21,7 @@ class MultiHeadAttention(nn.Module):
         q_k = nn.Softmax(q_k, dim=-1) / (self.emb_size ** 0.5)
         x = torch.einsum('bhal, bhlv -> bhav', q_k, v)
         x = rearrange(x, "b h n d -> b n (h d)")
-        x = self.projection(x)
-
-        return x
+        return self.projection(x)
 
 class FeedForwardBlock(nn.Module):
     def __init__(self, emb_size: int, expansion: int = 4) -> None:
@@ -36,9 +34,7 @@ class FeedForwardBlock(nn.Module):
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         x = self.lin1(x)
         x = self.gelu(x)
-        x = self.lin2(x)
-
-        return x
+        return self.lin2(x)
 
 class TransformerEncoderBlock(nn.Module):
     def __init__(self, emb_size: int) -> None:
@@ -52,9 +48,7 @@ class TransformerEncoderBlock(nn.Module):
         x = x + self.mha(x)
         x = self.ln(x)
         x = x + self.ff(x)
-        x = self.ln(x)
-
-        return x
+        return self.ln(x)
 
 class ViT(nn.Module):
     def __init__(self, img_size: int = 224, patch_size: int = 16, channels: int = 3, classes: int = 1000, depth: int = 12) -> None:
@@ -79,6 +73,4 @@ class ViT(nn.Module):
         x = torch.cat([self.cls_token, x], dim=1)
         x += self.pos_emb
         x = self.transformer_enc(x)
-        x = self.mlp_head(x)
-
-        return x
+        return self.mlp_head(x)

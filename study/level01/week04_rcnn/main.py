@@ -13,9 +13,7 @@
 #
 
 import torch
-import torch.nn as nn
 import torchvision
-import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
 
@@ -23,8 +21,6 @@ import os
 import shutil
 import time
 import pickle
-
-import pandas as pd
 
 from model import RCNN, NotImplementedLoss
 
@@ -44,7 +40,7 @@ def clear_log_folders(root: str = './') -> None:
         shutil.rmtree(os.path.join(root, 'results'))
 
 # For updating learning rate
-def update_learning_rate(optimizer, lr):
+def update_learning_rate(optimizer, lr: float):
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 

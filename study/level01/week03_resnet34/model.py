@@ -1,6 +1,7 @@
+import torch
 import torch.nn as nn
 
-def conv(in_channels, out_channels, kernel_size, stride, padding, activation=True):
+def conv(in_channels: int, out_channels: int, kernel_size: int, stride: int, padding: int, activation: bool = True):
     if activation:
         return nn.Sequential(
             nn.Conv2d(in_channels, out_channels, kernel_size, stride=stride, padding=padding),
@@ -14,7 +15,7 @@ def conv(in_channels, out_channels, kernel_size, stride, padding, activation=Tru
         )
 
 class ResidualBlock(nn.Module):
-    def __init__(self, in_channels, out_channels, downsample=False):
+    def __init__(self, in_channels: int, out_channels: int, downsample: bool = False) -> None:
         super().__init__()
 
         self.channel_change = in_channels != out_channels
@@ -34,7 +35,7 @@ class ResidualBlock(nn.Module):
             self.channel = conv(in_channels, out_channels, 1, 1, 0, activation=False)
             self.relu = nn.ReLU(inplace=True)
 
-    def forward(self, x):
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
         if self.downsample:
             out = self.layers(x)
             out += self.downsize(x)
@@ -50,7 +51,7 @@ class ResidualBlock(nn.Module):
                 return self.relu(out)
 
 class ResNet34(nn.Module):
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__()
 
         self.unit1 = nn.Sequential(
@@ -81,17 +82,16 @@ class ResNet34(nn.Module):
             ResidualBlock(512, 512),
             ResidualBlock(512, 512)
         )
-        self.avgpool = nn.AvgPool2d(2)
+        self.avgpool = nn.AdaptiveAvgPool2d([1, 1])
+        self.flatten = lambda x: torch.flatten(x, 1)
         self.fc = nn.Linear(512, 10)
 
-    def forward(self, x):
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
         x = self.unit1(x)
         x = self.unit2(x)
         x = self.unit3(x)
         x = self.unit4(x)
         x = self.unit5(x)
         x = self.avgpool(x)
-        x = x.view(x.size()[0], -1)
-        x = self.fc(x)
-
-        return x
+        x = self.flatten(x)
+        return self.fc(x)
