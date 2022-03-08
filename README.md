@@ -73,7 +73,7 @@
   * [Week 8] Computer Vision Basics & Research Trends I (03/07~03/11) <br>
     [![Day36](https://img.shields.io/badge/Day36-red)](/level02/week08/day36.md)
     [![Day37](https://img.shields.io/badge/Day37-orange)](/level02/week08/day37.md)
-    ![Day38](https://img.shields.io/badge/공휴일-gray)
+    [![Day38](https://img.shields.io/badge/Day38-yellow)](/level02/week08/day38.md)
     [![Day39](https://img.shields.io/badge/Day39-green)](/level02/week08/day39.md)
     [![Day40](https://img.shields.io/badge/Day40-blue)](/level02/week08/day40.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
