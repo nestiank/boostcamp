@@ -4,22 +4,21 @@
 
 ## 일지
 
+### 월요일의 daily report 보충 (04:00-04:20)
+
+### 화요일의 daily report 보충 (04:20-04:30)
+
 ### Daily scrum (10:00-10:10)
 
-### 과제 제출 (10:10-10:20)
+### 과제 제출 (10:10-12:00)
 
   * [과제] Computer Vision Basics & Research Trends
     * Data Augmentation
+
+### 과제 제출 (13:00-14:00)
+
+  * [과제] Computer Vision Basics & Research Trends
     * Classification to Segmentation
-
-### 강의 수강 및 퀴즈 제출 (10:20-12:00)
-
-  * [강의] Computer Vision Basics & Research Trends
-    * Object Detection
-  * [퀴즈] Computer Vision Basics & Research Trends
-    * Object Detection
-
-### Daily report 작성 (13:00-14:00)
 
 ### Mentoring (14:00-15:00)
 

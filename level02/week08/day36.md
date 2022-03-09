@@ -2,7 +2,18 @@
 
 ## 노트
 
-시간 상의 문제로 인하여 수요일에 한꺼번에 작성합니다.
+### Transfer Learning
+
+지난 프로젝트에서 앞쪽을 얼리고 fc layer를 학습시키는 것과 fc layer를 바꿔 달고 전체를 학습시키는 것은 모두 해 보았지만, 뒤쪽에 softmax with temperature를 적용하거나 fc layer의 learning rate를 feature layers보다 크게 하는 것은 해 보지 못했다. Softmax 그리고 double learning rates의 사용은 모델의 성능을 개선할 것으로 보이기 때문에, 다음 프로젝트에서는 사용해 볼 예정이다.
+
+### Knowledge Distillation
+
+EfficientNet의 근간이 되는 구조인데 모델을 계속 바꿔 가면서 학습할 수도 있다.
+
+  * Distillation loss: KL-divergence loss
+  * Student loss: cross entropy loss
+
+Softmax 과정에서 temperature parameter를 도입하면 확률분포가 덜 극단적이도록 만들 수 있다.
 
 ## 일지
 

@@ -9,9 +9,11 @@
 ### 강의 수강 및 퀴즈 제출 (10:10-12:00)
 
   * [강의] Computer Vision Basics & Research Trends
+    * Object Detection
     * CNN Visualization
     * AutoGrad
   * [퀴즈] Computer Vision Basics & Research Trends
+    * Object Detection
     * CNN Visualization
 
 ### 과제 수행 (13:00-15:00)
