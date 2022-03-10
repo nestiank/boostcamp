@@ -16,10 +16,12 @@
     * Object Detection
     * CNN Visualization
 
-### 과제 수행 (13:00-15:00)
+### 과제 수행 (13:00-14:30)
 
   * [과제] Computer Vision Basics & Research Trends
     * CNN Visualization
+
+### 주간 회고 작성 (14:30-15:00)
 
 ### Extended peer session (15:00-16:00)
 
