@@ -23,6 +23,7 @@
   * Ice-breaking
   * 최종 프로젝트 주제 공유
   * 대학원 입학 이야기
+  * Weights & Biases 소개
   * tmux & timm & mmcv 소개
   * Gradient accumulation 소개
   * Automatic mixed precision with gradient scaling 소개
