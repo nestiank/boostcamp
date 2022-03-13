@@ -2,6 +2,10 @@
 
 ## 노트
 
+### Historical Review
+
+예전에는 FCN을 사용했기 때문에 upsampling을 위해서 사용하는 transposed convolution의 overlap 문제를 해결하기 위하여 nearest neighbor interpolation이나 bilinear interpolation 등을 사용해야만 했다고 한다. 그리고 skip connection을 활용한 residual FCN도 있었다고 한다. 가장 대표적인 예시는 U-Net일 것이다.
+
 ### DeepLab
 
 #### Conditional Random Field
@@ -18,7 +22,7 @@ Pyramid 구조는 많은 논문에서 채택한 것이기 때문에 앞으로 fu
 
 > https://arxiv.org/pdf/1612.03144.pdf
 
-RetinaNet의 경우에도 feature pyramid network를 채택했는데 논문의 figure 1을 보면 pyramid structure 또한 다양하게 구성할 수 있다는 것을 바로 알 수 있다.
+RetinaNet의 경우에도 feature pyramid network를 채택했는데 논문의 figure 1을 보면 pyramid structure 또한 다양하게 구성할 수 있다는 것을 바로 알 수 있다. 아마 다음 프로젝트에서 시간 관계 상 여러 model들의 pyramid-shaped ensemble을 시도해 보지는 못하겠지만 pyramid network가 도입된 model을 먼저 사용해 볼 수는 있을 것이다.
 
 #### Separable Convolution
 
