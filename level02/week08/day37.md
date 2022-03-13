@@ -16,6 +16,10 @@ Dilated convolution이 어떤 효과가 있는지 잘 몰라서 사용하지 않
 
 Pyramid 구조는 많은 논문에서 채택한 것이기 때문에 앞으로 fully convolutional model 여러 개를 ensemble할 경우 결과만을 가지고 hard voting 또는 soft voting ensemble하기보다는 pyramid 구조로 엮어서 같이 학습될 수 있도록 하나의 모델로 만들어 볼 예정이다. 현재로서는 pyramid 구조의 성능 개선 가능성에 대해 확신이 있지는 않지만 multiple learning rates와 softmax with temperature를 같이 사용한다면 성능 개선에 도움이 될 수도 있을 것으로 보인다.
 
+> https://arxiv.org/pdf/1612.03144.pdf
+
+RetinaNet의 경우에도 feature pyramid network를 채택했는데 논문의 figure 1을 보면 pyramid structure 또한 다양하게 구성할 수 있다는 것을 바로 알 수 있다.
+
 #### Separable Convolution
 
 Depthwise convolution과 pointwise convolution을 나눠 two step으로 convolution을 진행하면 parameter 수는 줄이면서도 성능은 떨어뜨리지 않을 수 있다고 한다. 시간복잡도 최적화와 비슷한 맥락인데, 앞으로 모델을 구성할 때에는 이런 최적화가 가능한 지 반드시 검토해 볼 예정이다.
