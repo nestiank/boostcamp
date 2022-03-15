@@ -6,6 +6,16 @@
 
 ### Daily scrum (10:00-10:10)
 
+### 과제 수행 (10:10-12:00)
+
+  * [과제] Computer Vision Basics & Research Trends
+    * Human Pose Estimation Using Hourglass Network
+
+### 과제 수행 (13:00-14:00)
+
+  * [과제] Computer Vision Basics & Research Trends
+    * Human Pose Estimation Using Hourglass Network
+
 ### Mentoring (14:00-15:00)
 
 ### 과제 정답 확인 및 비교 (15:00-16:00)
