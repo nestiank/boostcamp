@@ -84,7 +84,7 @@
     [![Day43](https://img.shields.io/badge/Day43-yellow)](/level02/week09/day43.md)
     [![Day44](https://img.shields.io/badge/Day44-green)](/level02/week09/day44.md)
     [![Day45](https://img.shields.io/badge/Day45-blue)](/level02/week09/day45.md)
-    ![Sat](https://img.shields.io/badge/토요일-gray)
+    [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level02/week09/saturday.md)
     ![Sun](https://img.shields.io/badge/일요일-gray)
 
 #### P Stage
