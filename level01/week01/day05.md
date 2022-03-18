@@ -45,7 +45,7 @@ print("D", [i for i in generator_item])
 
 ### Peer session (16:00-17:00)
 
-  * 다른 팀의 상황 공유
+  * 다른 팀의 학습 상황 공유
   * 주간 팀 회고 진행
   * 취미 이야기
 
