@@ -27,9 +27,19 @@ Joint embedding을 사용하게 되면 cosine similarity loss와 semantic regula
 
 아예 CV task는 CNN으로 feature extraction을 하고 NLP task는 RNN으로 attention을 계산하는 방식이 있는데 학습 시간을 고려하면 모델의 경량화도 어느 정도 중요해 보인다.
 
-### Beam Search
+#### Beam Search
 
 Image captioning과 같이 NLP task가 들어 있는 경우 그쪽에서 recurrent layer를 사용하기 때문에 CV에서는 자주 사용되지 않는 beam search를 사용해야 한다. 이런 경우들을 볼 때마다 폭넓은 학습이 중요하다는 생각이 든다.
+
+#### Dealing with Sound Data
+
+Waveform의 분해를 위해 short time Fourier transform이 사용되며 데이터 시각화는 보통 spectogram으로 한다.
+
+SoundNet의 경우 visual recognition networks가 object distribution network과 scene distribution network으로 나눠지기 때문에 sound waveform network의 끝에서 두 개의 head를 사용하여 두 개의 KL-divergence loss를 사용한다는 점이 인상적이었다. 그리고 CV에서도 마찬가지이긴 하지만 waveform에 대한 pooling layer가 more generalizable semantic information을 얻는 데에 특별히 유용하다는 점은 modality에 따라서 어떤 방식으로 information gain이라는 목표에 도달할 것인지를 다르게 설계해야 한다는 점을 지적해 준다.
+
+Image-to-speech synthesis의 경우 같은 문장을 다른 사람이 말하는 경우와 다른 문장을 같은 사람이 말하는 경우를 잘 분별해서 학습하도록 하는 것이 어려웠을 것이다. 이것을 위해서 당연히 self-supervised learning을 했다고 하는데 좋은 성능을 내기 위해서 영상을 수백만 개나 사용했다고 하니 앞으로는 보다 현실적인 규모의 영상 데이터셋으로도 이런 task를 처리할 수 있을지가 중요할 것으로 보인다.
+
+Sound source localization은 앞의 task보다는 약간 쉬워 보인다.
 
 ## 일지
 
