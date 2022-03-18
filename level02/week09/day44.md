@@ -64,7 +64,7 @@
 
   * 과제 해설
 
-### 과제 수행 (18:00-20:00)
+### 과제 수행 (18:00-20:30)
 
   * [과제] Computer Vision Basics & Research Trends
     * Human Pose Estimation Using Hourglass Network

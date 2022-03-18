@@ -89,9 +89,30 @@
 
 #### P Stage
 
-  * [Week 10] Object Detection I (03/21~03/25)
-  * [Week 11] Object Detection II (03/28~04/01)
-  * [Week 12] Object Detection III (04/04~04/08)
+  * [Week 10] Object Detection I (03/21~03/25) <br>
+    [![Day46](https://img.shields.io/badge/Day46-red)](/level02/week10/day46.md)
+    [![Day47](https://img.shields.io/badge/Day47-orange)](/level02/week10/day47.md)
+    [![Day48](https://img.shields.io/badge/Day48-yellow)](/level02/week10/day48.md)
+    [![Day49](https://img.shields.io/badge/Day49-green)](/level02/week10/day49.md)
+    [![Day50](https://img.shields.io/badge/Day50-blue)](/level02/week10/day50.md)
+    ![Sat](https://img.shields.io/badge/토요일-gray)
+    ![Sun](https://img.shields.io/badge/일요일-gray)
+  * [Week 11] Object Detection II (03/28~04/01) <br>
+    [![Day51](https://img.shields.io/badge/Day51-red)](/level02/week11/day51.md)
+    [![Day52](https://img.shields.io/badge/Day52-orange)](/level02/week11/day52.md)
+    [![Day53](https://img.shields.io/badge/Day53-yellow)](/level02/week11/day53.md)
+    [![Day54](https://img.shields.io/badge/Day54-green)](/level02/week11/day54.md)
+    [![Day55](https://img.shields.io/badge/Day55-blue)](/level02/week11/day55.md)
+    ![Sat](https://img.shields.io/badge/토요일-gray)
+    ![Sun](https://img.shields.io/badge/일요일-gray)
+  * [Week 12] Object Detection III (04/04~04/08) <br>
+    [![Day56](https://img.shields.io/badge/Day56-red)](/level02/week12/day56.md)
+    [![Day57](https://img.shields.io/badge/Day57-orange)](/level02/week12/day57.md)
+    [![Day58](https://img.shields.io/badge/Day58-yellow)](/level02/week12/day58.md)
+    [![Day59](https://img.shields.io/badge/Day59-green)](/level02/week12/day59.md)
+    [![Day60](https://img.shields.io/badge/Day60-blue)](/level02/week12/day60.md)
+    ![Sat](https://img.shields.io/badge/토요일-gray)
+    ![Sun](https://img.shields.io/badge/일요일-gray)
   * [Week 13] About Data I (04/11~04/15)
   * [Week 14] About Data II (04/18~04/22)
   * [Week 15] Semantic Segmentation I (04/25~04/29)
