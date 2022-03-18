@@ -21,7 +21,7 @@
 
   * Gradient centralization 소개
   * Explanation & evaluation methods for CNN 소개
-    * Task: evaluating reliability of attribution
+    * Task: Evaluating reliability of attribution
       * Evaluating quality of saliency map
         * Model dependency
         * Dataset dependency
@@ -39,9 +39,9 @@
       * Square removal test
     * Other quantitative evaluation methods
       * Localization error check
-      * Sanity check: weight initialization
-      * Selectivity check: heatmap penalty
-      * ROAR: remove & retain method
+      * Sanity check: Weight initialization
+      * Selectivity check: Heatmap penalty
+      * ROAR: Remove & retain method
     * Remaining tasks
       * Reducing computation cost of evaluation methods
       * Evaluating reliability of dataset itself
