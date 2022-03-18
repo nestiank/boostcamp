@@ -2,6 +2,48 @@
 
 ## 노트
 
+### Gradient Centralization
+
+> https://arxiv.org/pdf/2004.01461.pdf
+
+평균을 계산해서 빼 준다는 매우 간단한 방법으로 gradient의 평균을 0으로 만드는 작업만 해 주면 generalization 성능이 개선된다는 것이 매우 인상적이었다.
+
+### Explanation & Evaluation Methods for CNN
+
+#### Task Definition
+
+  * Evaluating reliability of attribution
+    * Evaluating quality of saliency map
+      * Model dependency
+      * Dataset dependency
+      * Robustness of saliency map itself
+    * Boosting performance of generating saliency map
+
+#### Qualitative Evaluation Methods
+
+  * Coherence check
+  * Discriminativity check
+  * Human study
+
+#### Quantitative Evaluation Methods
+
+  * Completeness check with gradient
+    * Maximizing sensitivity
+    * Minimizing implementation variance
+  * Minimizing infidelity
+    * Noisy baseline method
+    * Square removal test
+  * Other quantitative evaluation methods
+    * Localization error check
+    * Sanity check: Weight initialization
+    * Selectivity check: Heatmap penalty
+    * ROAR: Remove & retain method
+
+#### Remaining Tasks
+
+  * Reducing computation cost of evaluation methods
+  * Evaluating reliability of dataset itself
+
 ## 일지
 
 ### Daily scrum (10:00-10:10)
@@ -21,30 +63,6 @@
 
   * Gradient centralization 소개
   * Explanation & evaluation methods for CNN 소개
-    * Task: Evaluating reliability of attribution
-      * Evaluating quality of saliency map
-        * Model dependency
-        * Dataset dependency
-        * Robustness of saliency map itself
-      * Boosting performance of generating saliency map
-    * Qualitative evaluation methods
-      * Coherence check
-      * Discriminativity check
-      * Human study
-    * Completeness check with gradient
-      * Maximizing sensitivity
-      * Minimizing implementation variance
-    * Minimizing infidelity
-      * Noisy baseline method
-      * Square removal test
-    * Other quantitative evaluation methods
-      * Localization error check
-      * Sanity check: Weight initialization
-      * Selectivity check: Heatmap penalty
-      * ROAR: Remove & retain method
-    * Remaining tasks
-      * Reducing computation cost of evaluation methods
-      * Evaluating reliability of dataset itself
 
 ### 과제 정답 확인 및 비교 (15:00-16:00)
 
