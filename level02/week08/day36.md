@@ -19,7 +19,7 @@
 EfficientNet의 근간이 되는 구조인데 모델을 계속 교체하면서 학습하는 방식으로 사용하면 self-training이라고 부른다.
 
   * Distillation loss: KL-divergence loss
-  * Student loss: cross entropy loss
+  * Student loss: Cross entropy loss
 
 Softmax 과정에서 temperature parameter를 도입하면 확률분포가 덜 극단적이도록 만들 수 있다.
 
