@@ -14,6 +14,7 @@
 
 ### Peer session (16:00-17:00)
 
+  * 프로젝트 데이터 EDA 상황 공유
   * Train dataset split 이야기
   * Data augmentation 이야기
     * Cutmix
