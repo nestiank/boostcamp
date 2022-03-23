@@ -6,9 +6,9 @@
 
 ### 프로젝트 수행 (10:20-12:00)
 
-  * Swin Transformer 베이스라인 학습 시도
-    * 코드 다운로드 및 일부 수정
-    * Pretrained weights 로드 시도
+  * Swin Transformer 베이스라인 학습
+    * 코드 수정
+    * Pretrained weights 로드
 
 ### 프로젝트 수행 (13:00-16:00)
 
@@ -31,3 +31,9 @@
 
   * [강의] Object Detection
     * Neck
+
+### 프로젝트 수행 (22:00-24:00)
+
+  * Swin Transformer 베이스라인 학습 결과 확인
+  * Prediction 생성 및 결과 확인
+  * Checkpoint 저장 관련 코드 수정
