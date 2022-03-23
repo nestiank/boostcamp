@@ -35,5 +35,5 @@
 ### 프로젝트 수행 (22:00-24:00)
 
   * Swin Transformer 베이스라인 학습 결과 확인
-  * Prediction 생성 및 결과 확인
+    * Prediction 생성 및 결과 확인
   * Checkpoint 저장 관련 코드 수정
