@@ -32,5 +32,5 @@
 ### 프로젝트 수행 (22:30-24:00)
 
   * Swin Transformer 베이스라인 학습 결과 확인
-  * Prediction 관련 오류 수정
-  * Prediction 생성 및 결과 확인
+    * Prediction 관련 오류 수정
+    * Prediction 생성 및 결과 확인
