@@ -95,7 +95,7 @@
     [![Day48](https://img.shields.io/badge/Day48-yellow)](/level02/week10/day48.md)
     [![Day49](https://img.shields.io/badge/Day49-green)](/level02/week10/day49.md)
     [![Day50](https://img.shields.io/badge/Day50-blue)](/level02/week10/day50.md)
-    ![Sat](https://img.shields.io/badge/토요일-gray)
+    [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level02/week10/saturday.md)
     ![Sun](https://img.shields.io/badge/일요일-gray)
   * [Week 11] Object Detection II (03/28~04/01) <br>
     [![Day51](https://img.shields.io/badge/Day51-red)](/level02/week11/day51.md)
