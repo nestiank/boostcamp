@@ -43,3 +43,8 @@
 
   * Swin Transformer with heavy augmentations 학습
     * 코드 수정
+
+### 프로젝트 수행 (23:00-23:40)
+
+  * Swin Transformer with heavy augmentations 학습 결과 확인
+    * Prediction 생성 및 결과 확인
