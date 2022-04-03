@@ -2,7 +2,7 @@
 
 ## 노트
 
-### Python generator
+### Python Generator
 
 > https://wikidocs.net/16069
 
