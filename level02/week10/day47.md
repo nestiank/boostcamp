@@ -7,7 +7,7 @@
 ### 프로젝트 수행 (10:20-16:00)
 
   * Weights & Biases 초기 설정 수행
-  * Swin Transformer 베이스라인 학습 시도
+  * Swin transformer 베이스라인 학습 시도
     * 코드 수정
     * 필요한 라이브러리 설치
     * 각종 오류 해결 시도
@@ -25,12 +25,12 @@
 
   * 프로젝트 레포지토리 README 일부 작성
   * Mask R-CNN 계열 사용 불가 확인
-  * Faster R-CNN 기반 Swin Transformer 베이스라인 학습
+  * Faster R-CNN 기반 Swin transformer 베이스라인 학습
     * 코드 수정
     * 학습 완료 알림 시스템 도입 시도
 
 ### 프로젝트 수행 (22:30-24:00)
 
-  * Swin Transformer 베이스라인 학습 결과 확인
+  * Swin transformer 베이스라인 학습 결과 확인
     * Prediction 관련 오류 수정
     * Prediction 생성 및 결과 확인

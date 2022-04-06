@@ -6,13 +6,13 @@
 
 ### 프로젝트 수행 (10:20-12:00)
 
-  * Swin Transformer 베이스라인 학습
+  * Swin transformer 베이스라인 학습
     * 코드 수정
     * Pretrained weights 로드
 
 ### 프로젝트 수행 (13:00-16:00)
 
-  * Swin Transformer 베이스라인 학습 모니터링
+  * Swin transformer 베이스라인 학습 모니터링
 
 ### Peer session (16:00-17:00)
 
@@ -34,6 +34,6 @@
 
 ### 프로젝트 수행 (22:00-24:00)
 
-  * Swin Transformer 베이스라인 학습 결과 확인
+  * Swin transformer 베이스라인 학습 결과 확인
     * Prediction 생성 및 결과 확인
   * Checkpoint 저장 관련 코드 수정

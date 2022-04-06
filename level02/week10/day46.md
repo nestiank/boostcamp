@@ -15,7 +15,7 @@
 ### 강의 영상 수강 (13:00-16:00)
 
   * [강의] Object Detection
-    * Faster RCNN from Scratch
+    * Faster R-CNN from Scratch
     * Object Detection Libray
 
 ### Peer session (16:00-17:00)
@@ -28,5 +28,5 @@
 ### 미션 수행 (17:00-19:00)
 
   * [미션] Object Detection
-    * Faster RCNN
+    * Faster R-CNN
     * Baseline Execution

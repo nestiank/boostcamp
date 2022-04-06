@@ -4,7 +4,7 @@
 
 ### 프로젝트 수행 (00:00-02:10)
 
-  * Swin Transformer 베이스라인 학습
+  * Swin transformer 베이스라인 학습
     * 코드 수정
 
 ### Daily scrum (10:00-10:20)

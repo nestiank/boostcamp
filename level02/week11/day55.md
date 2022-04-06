@@ -14,7 +14,7 @@
 
 ### 프로젝트 수행 (13:00-15:00)
 
-  * Swin Transformer with heavy augmentations 학습
+  * Swin transformer with heavy augmentations 학습
     * 코드 수정
 
 ### TBD (15:00-15:30)
@@ -29,7 +29,7 @@
 
 ### 프로젝트 수행 (17:00-19:00)
 
-  * Swin Transformer with heavy augmentations 학습 모니터링
+  * Swin transformer with heavy augmentations 학습 모니터링
   * 코드 수정
 
 ### 프로젝트 수행 (20:40-21:10)

@@ -4,14 +4,14 @@
 
 ### 프로젝트 수행 (00:00-00:40)
 
-  * Swin Transformer 베이스라인 학습
+  * Swin transformer 베이스라인 학습
     * 코드 수정
 
 ### Daily scrum (10:00-10:10)
 
 ### 프로젝트 수행 (10:10-11:20)
 
-  * Swin Transformer 베이스라인 학습
+  * Swin transformer 베이스라인 학습
     * 코드 수정
 
 ### 강의 수강 (11:20-12:00)
@@ -59,5 +59,5 @@
 ### 프로젝트 수행 (23:30-24:00)
 
   * 코드 수정
-  * Swin Transformer 베이스라인 학습 결과 확인
+  * Swin transformer 베이스라인 학습 결과 확인
     * Prediction 생성 및 결과 확인

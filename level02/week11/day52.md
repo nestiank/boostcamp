@@ -12,12 +12,12 @@
 
 ### 프로젝트 수행 (13:00-16:00)
 
-  * Swin Transformer 베이스라인 학습 결과 확인
+  * Swin transformer 베이스라인 학습 결과 확인
     * Prediction 생성 및 결과 확인
-  * Swin Transformer 베이스라인 관련 실험 진행
+  * Swin transformer 베이스라인 관련 실험 진행
     * Score threshold 하향 조정
     * Prediction 생성 및 결과 확인
-  * Swin Transformer v2 베이스라인 학습 시도
+  * Swin transformer v2 베이스라인 학습 시도
     * 코드 확인
 
 ### Peer session (16:00-17:00)
@@ -33,10 +33,10 @@
   * [강의] Object Detection
     * Ready for Competition
     * Object Detection in Kaggle
-  * Swin Transformer v2 베이스라인 학습 준비
+  * Swin transformer v2 베이스라인 학습 준비
     * 학습 전에 짚고 넘어가야 하는 의문점 정리
 
 ### 프로젝트 수행 (23:50-24:00)
 
-  * Swin Transformer 베이스라인 학습 결과 확인
+  * Swin transformer 베이스라인 학습 결과 확인
     * Prediction 생성 및 결과 확인

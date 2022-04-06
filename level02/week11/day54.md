@@ -15,14 +15,14 @@
 
   * Diffusion model 관련 이야기
   * 실험 결과 정리 및 공유 방법 이야기
-  * Swin Transformer 초기 설정 과정 공유
-  * Swin Transformer 추가 실험 계획 공유
+  * Swin transformer 초기 설정 과정 공유
+  * Swin transformer 추가 실험 계획 공유
   * 다음 peer session 준비
     * 다음 주 화요일까지 score based SDE 논문 리뷰해 오기
 
 ### 프로젝트 수행 (12:30-16:00)
 
-  * Swin Transformer with heavy augmentations 학습 시도
+  * Swin transformer with heavy augmentations 학습 시도
     * 코드 수정
 
 ### Peer session (16:00-17:00)
@@ -43,10 +43,10 @@
 
 ### 프로젝트 수행 (17:50-19:10)
 
-  * Swin Transformer with heavy augmentations 학습
+  * Swin transformer with heavy augmentations 학습
     * 코드 수정
 
 ### 프로젝트 수행 (23:00-23:40)
 
-  * Swin Transformer with heavy augmentations 학습 결과 확인
+  * Swin transformer with heavy augmentations 학습 결과 확인
     * Prediction 생성 및 결과 확인

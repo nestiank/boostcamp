@@ -6,7 +6,7 @@
 
 ### 프로젝트 수행 (10:10-12:00)
 
-  * Swin Transformer with heavy augmentations 학습 결과 확인
+  * Swin transformer with heavy augmentations 학습 결과 확인
     * Prediction 생성 및 결과 확인
 
 ### 보충 학습 (13:00-16:00)
@@ -32,5 +32,5 @@
 
 ### 프로젝트 수행 (23:40-24:00)
 
-  * Swin Transformer with heavy augmentations 학습 결과 확인
+  * Swin transformer with heavy augmentations 학습 결과 확인
     * Prediction 생성 및 결과 확인
