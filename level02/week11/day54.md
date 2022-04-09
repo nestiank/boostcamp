@@ -27,7 +27,7 @@
 
 ### Peer session (16:00-17:00)
 
-  * 대학원 연구실 이야기
+  * 대학원 연구실 관련 이야기
   * Data augmentation 관련 이야기
     * Online data augmentation with MMDetection 관련 이야기
     * Offline data augmentation with additional process 관련 이야기
