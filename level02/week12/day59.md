@@ -12,7 +12,7 @@
   * 프로젝트 정리 상황 공유
   * 최종 프로젝트 준비 상황 공유
     * Diffusion model 관련 이야기
-    * SDEdit 관련 이야기
+    * SDEdit 논문 관련 이야기
     * 데이터셋 구성 관련 이야기
   * Anomaly detection 관련 이야기
     * Flow normalization 소개
