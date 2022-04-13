@@ -17,7 +17,9 @@
   * Swin transformer with heavy augmentations 학습
     * 코드 수정
 
-### TBD (15:00-15:30)
+### 프로젝트 수행 (15:00-15:30)
+
+  * Swin transformer with heavy augmentations 학습 모니터링
 
 ### 주간 회고 작성 (15:30-16:00)
 
