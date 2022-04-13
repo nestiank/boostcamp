@@ -73,7 +73,7 @@ Depthwise convolution과 pointwise convolution을 나눠 two step으로 convolut
 
 ### Special lecture (18:00-19:20)
 
-  * 이력서 이야기
+  * 이력서 관련 이야기
 
 ### 과제 제출 (19:20-19:30)
 
