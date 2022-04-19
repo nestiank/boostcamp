@@ -6,13 +6,15 @@
 
 ### 강의 수강 (10:10-12:00)
 
-  * Text Detection I
-  * About Data
+  * [강의] About Data
+    * Text Detection I
+    * About Data
 
 ### 강의 수강 (13:00-16:00)
 
-  * Annotation Guide
-  * OCR Objective Functions
+  * [강의] About Data
+    * Annotation Guide
+    * OCR Objective Functions
 
 ### Peer session (16:00-17:00)
 
@@ -22,7 +24,8 @@
 
 ### 강의 수강 (17:00-18:00)
 
-  * Introducting the Annotation Tool
+  * [강의] About Data
+    * Introducting the Annotation Tool
 
 ### Special lecture (18:00-19:00)
 

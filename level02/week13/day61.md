@@ -10,8 +10,9 @@
 
 ### 강의 수강 (13:00-16:00)
 
-  * Importance of Building Datasets I
-  * Importance of Building Datasets II
+  * [강의] About Data
+    * Importance of Building Datasets I
+    * Importance of Building Datasets II
 
 ### Peer session (16:00-17:00)
 
@@ -22,7 +23,8 @@
 
 ### 강의 수강 (17:00-18:00)
 
-  * OCR Technology & Services
+  * [강의] About Data
+    * OCR Technology & Services
 
 ### 보충 학습 (18:00-19:00)
 
