@@ -4,4 +4,4 @@
 
 ### Daily scrum (10:00-10:10)
 
-### Peer session (16:00-17:00)
+### Peer session with mentoring (16:00-17:00)
