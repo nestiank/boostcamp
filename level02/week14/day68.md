@@ -2,6 +2,37 @@
 
 ## 일지
 
+### 프로젝트 수행 (04:50-05:20)
+
+  * EAST 베이스라인 학습 결과 확인
+    * Prediction 생성 및 결과 확인
+
 ### Daily scrum (10:00-10:10)
 
-### Peer session with mentoring (16:00-17:00)
+### 프로젝트 수행 (10:10-11:50)
+
+  * EAST 베이스라인 학습 모니터링
+
+### 프로젝트 수행 (12:50-16:00)
+
+  * EAST 베이스라인 학습 결과 확인
+    * Prediction 생성 및 결과 확인
+  * EAST 베이스라인 학습 모니터링
+
+### Peer session with mentoring (16:00-17:30)
+
+  * 최종 프로젝트 관련 이야기
+    * User flow 소개
+    * Streamlit 소개
+  * 면접에서 나온 질문 소개
+  * Double descent 관련 이야기
+  * Inductive bias 관련 이야기
+
+### Peer session (17:30-18:00)
+
+  * 개인별 프로젝트 수행 상황 공유
+  * SDEdit 관련 이야기
+
+### 프로젝트 수행 (18:00-19:00)
+
+  * EAST 베이스라인 학습 모니터링
