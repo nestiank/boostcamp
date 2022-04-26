@@ -19,7 +19,7 @@
     * Prediction 생성 및 결과 확인
   * EAST 베이스라인 학습 모니터링
 
-### Peer session with mentoring (16:00-17:30)
+### Mentoring (16:00-17:30)
 
   * 최종 프로젝트 관련 이야기
     * User flow 소개
