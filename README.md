@@ -143,7 +143,7 @@
     [![Day78](https://img.shields.io/badge/Day78-yellow)](/level02/week16/day78.md)
     ![Day79](https://img.shields.io/badge/공휴일-gray)
     [![Day80](https://img.shields.io/badge/Day80-blue)](/level02/week16/day80.md)
-    ![Sat](https://img.shields.io/badge/토요일-gray)
+    [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level02/week16/saturday.md)
     ![Sun](https://img.shields.io/badge/일요일-gray)
   * [Week 17] Semantic Segmentation III (05/09~05/13) <br>
     [![Day81](https://img.shields.io/badge/Day81-red)](/level02/week17/day81.md)
