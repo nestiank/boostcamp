@@ -17,3 +17,15 @@ Inference 결과의 일부를 다시 시각화해 보았는데, 작은 물체는
     * Prediction 생성 및 결과 확인
   * Swin transformer 학습
     * 코드 수정
+
+### 프로젝트 수행 (12:00-14:20)
+
+  * Swin transformer 학습
+    * 코드 수정
+  * Swin transformer 학습 모니터링
+
+### 프로젝트 수행 (23:30-24:00)
+
+  * Swin transformer 학습 모니터링
+  * Swin transformer 학습 결과 확인
+    * Prediction 생성 및 결과 확인
