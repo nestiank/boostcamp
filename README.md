@@ -104,7 +104,7 @@
     [![Day54](https://img.shields.io/badge/Day54-green)](/level02/week11/day54.md)
     [![Day55](https://img.shields.io/badge/Day55-blue)](/level02/week11/day55.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
-    [![Sat](https://img.shields.io/badge/토요일-purple)](/level02/week11/sunday.md)
+    [![Sun](https://img.shields.io/badge/일요일-purple)](/level02/week11/sunday.md)
   * [Week 12] Object Detection III (04/04~04/08) <br>
     [![Day56](https://img.shields.io/badge/Day56-red)](/level02/week12/day56.md)
     [![Day57](https://img.shields.io/badge/Day57-orange)](/level02/week12/day57.md)
@@ -144,7 +144,7 @@
     ![Day79](https://img.shields.io/badge/공휴일-gray)
     [![Day80](https://img.shields.io/badge/Day80-blue)](/level02/week16/day80.md)
     [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level02/week16/saturday.md)
-    ![Sun](https://img.shields.io/badge/일요일-gray)
+    [![Sun](https://img.shields.io/badge/일요일-purple)](/level02/week16/sunday.md)
   * [Week 17] Semantic Segmentation III (05/09~05/13) <br>
     [![Day81](https://img.shields.io/badge/Day81-red)](/level02/week17/day81.md)
     [![Day82](https://img.shields.io/badge/Day82-orange)](/level02/week17/day82.md)
