@@ -151,8 +151,8 @@
     [![Day83](https://img.shields.io/badge/Day83-yellow)](/level02/week17/day83.md)
     [![Day84](https://img.shields.io/badge/Day84-green)](/level02/week17/day84.md)
     [![Day85](https://img.shields.io/badge/Day85-blue)](/level02/week17/day85.md)
-    ![Sat](https://img.shields.io/badge/토요일-gray)
-    ![Sun](https://img.shields.io/badge/일요일-gray)
+    [![Sat](https://img.shields.io/badge/토요일-gray)](/level02/week17/saturday.md)
+    [![Sun](https://img.shields.io/badge/일요일-gray)](/level02/week17/sunday.md)
 
 ### Level 3
 
