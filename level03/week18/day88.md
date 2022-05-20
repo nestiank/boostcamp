@@ -11,12 +11,12 @@ SDEdit demo를 실행해 보면 입력에서 수정한 색상이 결과물에 �
 ### 프로젝트 수행 (10:10-12:00)
 
   * SDEdit 관련 실험 진행
-    * Demo에서 발생하는 색상 관련 오류 수정 시도
+    * [Demo에서 발생하는 색상 관련 오류 수정 시도][#20]
 
 ### 프로젝트 수행 (13:00-16:00)
 
   * SDEdit 관련 실험 진행
-    * Demo에서 발생하는 색상 관련 오류 수정 시도
+    * [Demo에서 발생하는 색상 관련 오류 수정 시도][#20]
 
 ### Peer session (16:00-17:20)
 
@@ -26,7 +26,7 @@ SDEdit demo를 실행해 보면 입력에서 수정한 색상이 결과물에 �
 ### 프로젝트 수행 (17:20-18:00)
 
   * SDEdit 관련 실험 진행
-    * Demo에서 발생하는 색상 관련 오류 수정 시도
+    * [Demo에서 발생하는 색상 관련 오류 수정 시도][#20]
 
 ### Special lecture (18:00-19:20)
 
@@ -39,3 +39,7 @@ SDEdit demo를 실행해 보면 입력에서 수정한 색상이 결과물에 �
   * 이슈 작성 방법 소개
   * Kaggle 관련 이야기
   * 최종 프로젝트 주제 소개
+
+<!-- Links: Issues and Pull Requests -->
+
+[#20]: https://github.com/boostcampaitech3/final-project-level3-cv-02/issues/20
