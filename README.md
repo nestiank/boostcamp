@@ -177,7 +177,7 @@
   * [Week 20] Product Serving III (05/30~06/03) <br>
     [![Day96](https://img.shields.io/badge/Day96-red)](/level03/week20/day96.md)
     [![Day97](https://img.shields.io/badge/Day97-orange)](/level03/week20/day97.md)
-    ![Day98](https://img.shields.io/badge/공휴일-gray)
+    [![Day98](https://img.shields.io/badge/Day98-yellow)](/level03/week20/day98.md)
     [![Day99](https://img.shields.io/badge/Day99-green)](/level03/week20/day99.md)
     [![Day100](https://img.shields.io/badge/Day100-blue)](/level03/week20/day100.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
