@@ -151,8 +151,8 @@
     [![Day83](https://img.shields.io/badge/Day83-yellow)](/level02/week17/day83.md)
     [![Day84](https://img.shields.io/badge/Day84-green)](/level02/week17/day84.md)
     [![Day85](https://img.shields.io/badge/Day85-blue)](/level02/week17/day85.md)
-    [![Sat](https://img.shields.io/badge/토요일-gray)](/level02/week17/saturday.md)
-    [![Sun](https://img.shields.io/badge/일요일-gray)](/level02/week17/sunday.md)
+    [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level02/week17/saturday.md)
+    [![Sun](https://img.shields.io/badge/일요일-purple)](/level02/week17/sunday.md)
 
 ### Level 3
 
@@ -180,7 +180,7 @@
     [![Day98](https://img.shields.io/badge/Day98-yellow)](/level03/week20/day98.md)
     [![Day99](https://img.shields.io/badge/Day99-green)](/level03/week20/day99.md)
     [![Day100](https://img.shields.io/badge/Day100-blue)](/level03/week20/day100.md)
-    ![Sat](https://img.shields.io/badge/토요일-gray)
+    [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level03/week20/saturday.md)
     ![Sun](https://img.shields.io/badge/일요일-gray)
   * [Week 21] Product Serving IV (06/06~06/10) <br>
     ![Day101](https://img.shields.io/badge/공휴일-gray)
