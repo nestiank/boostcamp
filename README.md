@@ -181,7 +181,7 @@
     [![Day99](https://img.shields.io/badge/Day99-green)](/level03/week20/day99.md)
     [![Day100](https://img.shields.io/badge/Day100-blue)](/level03/week20/day100.md)
     [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level03/week20/saturday.md)
-    ![Sun](https://img.shields.io/badge/일요일-gray)
+    [![Sun](https://img.shields.io/badge/일요일-purple)](/level03/week20/sunday.md)
   * [Week 21] Product Serving IV (06/06~06/10) <br>
     ![Day101](https://img.shields.io/badge/공휴일-gray)
     [![Day102](https://img.shields.io/badge/Day102-orange)](/level03/week21/day102.md)
