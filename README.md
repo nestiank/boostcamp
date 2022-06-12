@@ -183,13 +183,13 @@
     [![Sat](https://img.shields.io/badge/토요일-darkblue)](/level03/week20/saturday.md)
     [![Sun](https://img.shields.io/badge/일요일-purple)](/level03/week20/sunday.md)
   * [Week 21] Product Serving IV (06/06~06/10) <br>
-    ![Day101](https://img.shields.io/badge/공휴일-gray)
+    [![Day101](https://img.shields.io/badge/Day101-red)](/level03/week21/day101.md)
     [![Day102](https://img.shields.io/badge/Day102-orange)](/level03/week21/day102.md)
     [![Day103](https://img.shields.io/badge/Day103-yellow)](/level03/week21/day103.md)
     [![Day104](https://img.shields.io/badge/Day104-green)](/level03/week21/day104.md)
     [![Day105](https://img.shields.io/badge/Day105-blue)](/level03/week21/day105.md)
     ![Sat](https://img.shields.io/badge/토요일-gray)
-    ![Sun](https://img.shields.io/badge/일요일-gray)
+    [![Sun](https://img.shields.io/badge/일요일-purple)](/level03/week21/sunday.md)
   * [Week 22] Finalization (06/13~06/15) <br>
     [![Day106](https://img.shields.io/badge/Day106-red)](/level03/week22/day106.md)
     [![Day107](https://img.shields.io/badge/Day107-orange)](/level03/week22/day107.md)
