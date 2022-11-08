@@ -8,4 +8,4 @@
 
 <!-- Links: Issues and Pull Requests -->
 
-#38: https://github.com/boostcampaitech3/final-project-level3-cv-02/pull/38
+[#38]: https://github.com/boostcampaitech3/final-project-level3-cv-02/pull/38

@@ -36,3 +36,8 @@
 ### 프로젝트 수행 (20:30-20:40)
 
   * GitHub 이슈 작성
+
+<!-- Links: Issues and Pull Requests -->
+
+[#34]: https://github.com/boostcampaitech3/final-project-level3-cv-02/issues/34
+[#43]: https://github.com/boostcampaitech3/final-project-level3-cv-02/pull/43
